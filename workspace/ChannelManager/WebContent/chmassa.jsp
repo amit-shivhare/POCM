@@ -1,6 +1,6 @@
 <%@ page import="java.io.File, java.io.FileReader, java.io.BufferedReader, java.io.FileWriter, java.util.Enumeration, java.util.ArrayList, java.util.Properties" %>
 <%
-
+//Hello testing 
 	String filename = "CMLocation.dat";
 	String setupfile = "channels.properties";
 	String folder = "ChannelManagerAppData"; //app config file where 'location' is stored
