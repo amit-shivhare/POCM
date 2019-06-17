@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 1 element(s) from project &apos;cXML&apos;&#x0D;&#x0A;- Original project: &apos;cXML&apos;&#x0D;&#x0A;- Original element: &apos;cXML/src/com.mt.cxml&apos;" description="Delete element" element1="/src&lt;com.mt.cxml" element2="/src&lt;com.mt" element3="/src&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1428167270903" subPackages="false" version="1.0"/>
+</session>

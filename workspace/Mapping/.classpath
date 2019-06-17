@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="com.sap.ext.libs.xpi.classpathContainer/mapping"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/com.sap.aii.af.cpa.svc.api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/com.sap.aii.af.lib.mod.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/com.sap.aii.af.ms.ifc_api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/com.sap.aii.af.svc_api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/sap.com~tc~logging~java~impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/Java Mapping Jar files/sapjco.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kumar-81/Documents/Metller  Documents/SAP Jar files/sapjco3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

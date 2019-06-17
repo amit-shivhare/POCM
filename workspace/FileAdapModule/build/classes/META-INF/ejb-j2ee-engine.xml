@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-j2ee-engine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejb-j2ee-engine_3_0.xsd">
+<enterprise-beans>
+<enterprise-bean>
+			<ejb-name>ejb_name</ejb-name>
+			<jndi-name>jndi_name</jndi-name>
+			<bean-props>
+				<property>
+					<property-name>SetMessageCorralationIDEJB</property-name>
+					<property-value>SetMessageCorralationIDJNDI</property-value>
+				</property>
+			</bean-props>
+		</enterprise-bean>
+		
+</enterprise-beans>
+</ejb-j2ee-engine>

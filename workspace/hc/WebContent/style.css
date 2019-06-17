@@ -1,0 +1,61 @@
+body {background-color: #ededed; margin: 0px}
+
+a {}
+.main {font-family: Arial; font-size: 12px; font-weight: bold; text-decoration: none; color: #336677; padding-right: 30px;}
+
+div {}
+
+.lined {border-bottom: 1px solid grey;border-top: 1px solid grey; padding: 5px;}
+
+.message0 {
+    color: white;
+}
+
+.message1 {
+	color: black;
+    background-color: #ffff99;
+}
+
+.message2 {
+	color: black;
+    background-color: #99ff99;
+}
+
+.message3 {
+    color: white;
+    background-color: #ff4c4c;
+}
+
+#content {overflow: scroll; height: 400px; width: 950px;}
+#label {background-color: #336699; padding-left: 10px; padding-top: 1px; padding-bottom: 1px; color: white;}
+#messager {
+	margin: 5px;
+    border: solid 1px black;    
+    font-family: Arial;
+    padding: 4px;
+    font-size: 12px;
+}
+
+td {font-family: Arial; font-size: 11px; border: solid 1px #d7d7d7}
+.s {border: 0px}
+.pic {text-align: center; width: 40px;}
+
+h2 {font-family: Arial; padding-top: 5px}
+
+tr {}
+.c0 {}
+.c1 { background color: #c4c4c4;}
+.c2 { background-color: #f6f6f6;}
+
+input {font-size: 12px;
+	font-family: Arial;
+}
+
+span {font-family: Arial; font-size: 12px;}
+
+input[type=button] {
+    background-color: #BEBEBE;
+    border: solid 1px black;
+}
+
+.exec { background-color: red; color: white}

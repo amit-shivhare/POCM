@@ -1,0 +1,462 @@
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="719,2756" id="P79563d01938230SPCORafservicecpa0" metadata="nsuml-1.4" initialized="true" showWireOptions="15">
+  <children xsi:type="editmodel:ClassEditModel" location="425,422" size="178,296" targetConnections="//@children.0/@sourceConnections.7 //@children.0/@sourceConnections.4 //@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1 //@children.0/@sourceConnections.2 //@children.0/@sourceConnections.3 //@children.0/@sourceConnections.5 //@children.0/@sourceConnections.6 //@children.0/@sourceConnections.8 //@children.0/@sourceConnections.9" id="P79563d01938230SPCORafservicecpa81" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa104;P79563d01938230SPCORafservicecpa134;P79563d01938230SPCORafservicecpa126;P79563d01938230SPCORafservicecpa137;P79563d01938230SPCORafservicecpa108;P79563d01938230SPCORafservicecpa92;P79563d01938230SPCORafservicecpa86;P79563d01938230SPCORafservicecpa98;P79563d01938230SPCORafservicecpa132;P79563d01938230SPCORafservicecpa110;P79563d01938230SPCORafservicecpa106;P79563d01938230SPCORafservicecpa128;P79563d01938230SPCORafservicecpa84;P79563d01938230SPCORafservicecpa96;P79563d01938230SPCORafservicecpa112;P79563d01938230SPCORafservicecpa120;P79563d01938230SPCORafservicecpa142;P79563d01938230SPCORafservicecpa82;P79563d01938230SPCORafservicecpa150;P79563d01938230SPCORafservicecpa100;P79563d01938230SPCORafservicecpa114;P79563d01938230SPCORafservicecpa122;P79563d01938230SPCORafservicecpa94;P79563d01938230SPCORafservicecpa88;P79563d01938230SPCORafservicecpa90;P79563d01938230SPCORafservicecpa124;P79563d01938230SPCORafservicecpa129;P79563d01938230SPCORafservicecpa153;P79563d01938230SPCORafservicecpa118;P79563d01938230SPCORafservicecpa116;P79563d01938230SPCORafservicecpa102;P79563d01938230SPCORafservicecpa146">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,36" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa153"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa132"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa116" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,286" id="P79563d01938230SPCORafservicecpa116" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="64,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,273" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa122" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,194" id="P79563d01938230SPCORafservicecpa122" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="105,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,168" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa118" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,138" id="P79563d01938230SPCORafservicecpa118" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="147,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,112" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa106" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,93" id="P79563d01938230SPCORafservicecpa106" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="55,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,66" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa112" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,238" id="P79563d01938230SPCORafservicecpa112" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="145,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,216" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa120" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.5/@children.0" sourceEnd="//@children.0/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,216" id="P79563d01938230SPCORafservicecpa120" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="123,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,192" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa114" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.6/@children.0" sourceEnd="//@children.0/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,257" id="P79563d01938230SPCORafservicecpa114" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="73,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,281" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa124" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.7/@children.0" sourceEnd="//@children.0/@sourceConnections.7/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,162" id="P79563d01938230SPCORafservicecpa124" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.7/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.7/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="184,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,135" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa108" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.8/@children.0" sourceEnd="//@children.0/@sourceConnections.8/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,113" id="P79563d01938230SPCORafservicecpa108" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.8/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.8/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="131,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,88" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa110" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.9/@children.0" sourceEnd="//@children.0/@sourceConnections.9/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,55" id="P79563d01938230SPCORafservicecpa110" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.0/@sourceConnections.9/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.9/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="69,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="420,22" size="199,376" id="P79563d01938230SPCORafservicecpa156" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa161;P79563d01938230SPCORafservicecpa227;P79563d01938230SPCORafservicecpa159;P79563d01938230SPCORafservicecpa178;P79563d01938230SPCORafservicecpa173;P79563d01938230SPCORafservicecpa217;P79563d01938230SPCORafservicecpa233;P79563d01938230SPCORafservicecpa169;P79563d01938230SPCORafservicecpa221;P79563d01938230SPCORafservicecpa181;P79563d01938230SPCORafservicecpa191;P79563d01938230SPCORafservicecpa235;P79563d01938230SPCORafservicecpa201;P79563d01938230SPCORafservicecpa157;P79563d01938230SPCORafservicecpa223;P79563d01938230SPCORafservicecpa237;P79563d01938230SPCORafservicecpa214;P79563d01938230SPCORafservicecpa229;P79563d01938230SPCORafservicecpa225;P79563d01938230SPCORafservicecpa163;P79563d01938230SPCORafservicecpa219;P79563d01938230SPCORafservicecpa165;P79563d01938230SPCORafservicecpa231;P79563d01938230SPCORafservicecpa212;P79563d01938230SPCORafservicecpa175">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,324" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa181"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa201"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa173"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa178"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa175"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa191"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa231"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa229"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa214"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa212"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa235"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa233"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa221"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa223"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa219"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa225"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa227"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa237"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.1" target="//@children.20" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,314"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="228,0"/>
+      <bendpoints secondRelativeDimension="194,-184" firstRelativeDimension="-122,217"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="778,809" size="229,178" targetConnections="//@children.2/@sourceConnections.0" id="P79563d01938230SPCORafservicecpa241" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa279;P79563d01938230SPCORafservicecpa284;P79563d01938230SPCORafservicecpa246;P79563d01938230SPCORafservicecpa256;P79563d01938230SPCORafservicecpa274;P79563d01938230SPCORafservicecpa248;P79563d01938230SPCORafservicecpa270;P79563d01938230SPCORafservicecpa252;P79563d01938230SPCORafservicecpa244;P79563d01938230SPCORafservicecpa254;P79563d01938230SPCORafservicecpa260;P79563d01938230SPCORafservicecpa288;P79563d01938230SPCORafservicecpa265;P79563d01938230SPCORafservicecpa242;P79563d01938230SPCORafservicecpa294">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="206,126" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa288"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa279"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa294"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa284"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa265"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa274"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa270"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa246" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.2" targetEnd="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="P79563d01938230SPCORafservicecpa246" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="60,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="513,754" size="186,808" id="P79563d01938230SPCORafservicecpa301" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa372;P79563d01938230SPCORafservicecpa318;P79563d01938230SPCORafservicecpa314;P79563d01938230SPCORafservicecpa423;P79563d01938230SPCORafservicecpa396;P79563d01938230SPCORafservicecpa374;P79563d01938230SPCORafservicecpa440;P79563d01938230SPCORafservicecpa386;P79563d01938230SPCORafservicecpa417;P79563d01938230SPCORafservicecpa406;P79563d01938230SPCORafservicecpa331;P79563d01938230SPCORafservicecpa398;P79563d01938230SPCORafservicecpa323;P79563d01938230SPCORafservicecpa446;P79563d01938230SPCORafservicecpa376;P79563d01938230SPCORafservicecpa437;P79563d01938230SPCORafservicecpa308;P79563d01938230SPCORafservicecpa452;P79563d01938230SPCORafservicecpa458;P79563d01938230SPCORafservicecpa310;P79563d01938230SPCORafservicecpa382;P79563d01938230SPCORafservicecpa414;P79563d01938230SPCORafservicecpa443;P79563d01938230SPCORafservicecpa402;P79563d01938230SPCORafservicecpa320;P79563d01938230SPCORafservicecpa434;P79563d01938230SPCORafservicecpa380;P79563d01938230SPCORafservicecpa306;P79563d01938230SPCORafservicecpa394;P79563d01938230SPCORafservicecpa420;P79563d01938230SPCORafservicecpa412;P79563d01938230SPCORafservicecpa302;P79563d01938230SPCORafservicecpa449;P79563d01938230SPCORafservicecpa408;P79563d01938230SPCORafservicecpa428;P79563d01938230SPCORafservicecpa351;P79563d01938230SPCORafservicecpa410;P79563d01938230SPCORafservicecpa431;P79563d01938230SPCORafservicecpa388;P79563d01938230SPCORafservicecpa390;P79563d01938230SPCORafservicecpa326;P79563d01938230SPCORafservicecpa304;P79563d01938230SPCORafservicecpa461;P79563d01938230SPCORafservicecpa404;P79563d01938230SPCORafservicecpa455;P79563d01938230SPCORafservicecpa400;P79563d01938230SPCORafservicecpa378;P79563d01938230SPCORafservicecpa384;P79563d01938230SPCORafservicecpa392">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="163,756" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa326"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa331"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa323"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa320"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa351"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa318"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa390"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa392"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa388"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa412"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa372"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa382"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa394"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa386"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa384"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa404"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa406"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa396"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa398"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa376"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa378"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa380"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa408"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa410"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa400"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa402"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa428"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa431"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa420"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa423"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa461"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa434"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa417"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa414"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa449"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa452"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa437"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa440"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa455"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa458"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa443"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa446"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.3" target="//@children.8" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,809"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,115"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.1" sourceEnd="//@children.3/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,533"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="218,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.3" target="//@children.20" targetEnd="//@children.3/@sourceConnections.2/@children.1" sourceEnd="//@children.3/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,404"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="216,269"/>
+      <bendpoints secondRelativeDimension="293,159" firstRelativeDimension="-110,-388"/>
+      <bendpoints secondRelativeDimension="192,175" firstRelativeDimension="-214,-415"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="766,1063" size="241,232" targetConnections="//@children.3/@sourceConnections.1" id="P79563d01938230SPCORafservicecpa465" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa470;P79563d01938230SPCORafservicecpa503;P79563d01938230SPCORafservicecpa492;P79563d01938230SPCORafservicecpa486;P79563d01938230SPCORafservicecpa489;P79563d01938230SPCORafservicecpa468;P79563d01938230SPCORafservicecpa495;P79563d01938230SPCORafservicecpa507;P79563d01938230SPCORafservicecpa483;P79563d01938230SPCORafservicecpa466;P79563d01938230SPCORafservicecpa480;P79563d01938230SPCORafservicecpa499">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="203,180" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa470"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa507"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa480"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa495"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa492"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa503"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa486"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa489"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa483"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa499"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="90,1157" size="199,322" id="P79563d01938230SPCORafservicecpa292" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa568;P79563d01938230SPCORafservicecpa514;P79563d01938230SPCORafservicecpa572;P79563d01938230SPCORafservicecpa518;P79563d01938230SPCORafservicecpa510;P79563d01938230SPCORafservicecpa550;P79563d01938230SPCORafservicecpa526;P79563d01938230SPCORafservicecpa531;P79563d01938230SPCORafservicecpa557;P79563d01938230SPCORafservicecpa559;P79563d01938230SPCORafservicecpa564;P79563d01938230SPCORafservicecpa516;P79563d01938230SPCORafservicecpa574;P79563d01938230SPCORafservicecpa534;P79563d01938230SPCORafservicecpa512;P79563d01938230SPCORafservicecpa539;P79563d01938230SPCORafservicecpa570;P79563d01938230SPCORafservicecpa566;P79563d01938230SPCORafservicecpa528;P79563d01938230SPCORafservicecpa562;P79563d01938230SPCORafservicecpa522;P79563d01938230SPCORafservicecpa544">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,270" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa531"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa534"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa539"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa550"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa544"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa526"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa528"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa559"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa557"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa564"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa566"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa568"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa572"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa570"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa574"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="302,797" size="199,304" id="P79563d01938230SPCORafservicecpa263" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa607;P79563d01938230SPCORafservicecpa651;P79563d01938230SPCORafservicecpa622;P79563d01938230SPCORafservicecpa603;P79563d01938230SPCORafservicecpa633;P79563d01938230SPCORafservicecpa601;P79563d01938230SPCORafservicecpa655;P79563d01938230SPCORafservicecpa644;P79563d01938230SPCORafservicecpa619;P79563d01938230SPCORafservicecpa638;P79563d01938230SPCORafservicecpa649;P79563d01938230SPCORafservicecpa617;P79563d01938230SPCORafservicecpa657;P79563d01938230SPCORafservicecpa646;P79563d01938230SPCORafservicecpa653;P79563d01938230SPCORafservicecpa605;P79563d01938230SPCORafservicecpa629;P79563d01938230SPCORafservicecpa609;P79563d01938230SPCORafservicecpa613;P79563d01938230SPCORafservicecpa625;P79563d01938230SPCORafservicecpa659">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,252" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa629"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa638"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa617"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa633"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa625"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa622"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa619"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa646"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa644"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa651"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa653"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa655"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa657"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa659"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="30,22" size="183,372" id="P79563d01938230SPCORafservicecpa663" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa712;P79563d01938230SPCORafservicecpa726;P79563d01938230SPCORafservicecpa688;P79563d01938230SPCORafservicecpa666;P79563d01938230SPCORafservicecpa691;P79563d01938230SPCORafservicecpa695;P79563d01938230SPCORafservicecpa680;P79563d01938230SPCORafservicecpa676;P79563d01938230SPCORafservicecpa720;P79563d01938230SPCORafservicecpa729;P79563d01938230SPCORafservicecpa683;P79563d01938230SPCORafservicecpa670;P79563d01938230SPCORafservicecpa668;P79563d01938230SPCORafservicecpa672;P79563d01938230SPCORafservicecpa718;P79563d01938230SPCORafservicecpa732;P79563d01938230SPCORafservicecpa714;P79563d01938230SPCORafservicecpa710;P79563d01938230SPCORafservicecpa664;P79563d01938230SPCORafservicecpa722;P79563d01938230SPCORafservicecpa724;P79563d01938230SPCORafservicecpa685;P79563d01938230SPCORafservicecpa716;P79563d01938230SPCORafservicecpa702">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,306" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa683"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa695"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa688"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa702"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa685"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa691"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa680"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa710"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa716"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa720"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa724"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa722"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa714"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa718"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa726"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa732"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa729"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.7" target="//@children.20" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,373"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,0"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="768,1306" size="242,232" targetConnections="//@children.3/@sourceConnections.0" id="P79563d01938230SPCORafservicecpa736" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa757;P79563d01938230SPCORafservicecpa754;P79563d01938230SPCORafservicecpa739;P79563d01938230SPCORafservicecpa763;P79563d01938230SPCORafservicecpa737;P79563d01938230SPCORafservicecpa760;P79563d01938230SPCORafservicecpa741;P79563d01938230SPCORafservicecpa769;P79563d01938230SPCORafservicecpa751;P79563d01938230SPCORafservicecpa766;P79563d01938230SPCORafservicecpa772;P79563d01938230SPCORafservicecpa775">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="203,180" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa741"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa775"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa751"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa766"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa763"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa772"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa757"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa760"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa754"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa769"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="226,22" size="183,372" id="P79563d01938230SPCORafservicecpa778" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa808;P79563d01938230SPCORafservicecpa835;P79563d01938230SPCORafservicecpa831;P79563d01938230SPCORafservicecpa785;P79563d01938230SPCORafservicecpa827;P79563d01938230SPCORafservicecpa779;P79563d01938230SPCORafservicecpa821;P79563d01938230SPCORafservicecpa823;P79563d01938230SPCORafservicecpa795;P79563d01938230SPCORafservicecpa781;P79563d01938230SPCORafservicecpa833;P79563d01938230SPCORafservicecpa814;P79563d01938230SPCORafservicecpa783;P79563d01938230SPCORafservicecpa787;P79563d01938230SPCORafservicecpa829;P79563d01938230SPCORafservicecpa800;P79563d01938230SPCORafservicecpa825;P79563d01938230SPCORafservicecpa803;P79563d01938230SPCORafservicecpa791;P79563d01938230SPCORafservicecpa797">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,234" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa808"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa797"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa803"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa795"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa814"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa800"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa821"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa827"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa829"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa825"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa831"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa833"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa835"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependancyEditModel" connectionRouterKind="Manual" source="//@children.9" target="//@children.20" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,373"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="184,0"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="299,1155" size="199,322" id="P79563d01938230SPCORafservicecpa298" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa872;P79563d01938230SPCORafservicecpa857;P79563d01938230SPCORafservicecpa894;P79563d01938230SPCORafservicecpa851;P79563d01938230SPCORafservicecpa845;P79563d01938230SPCORafservicecpa843;P79563d01938230SPCORafservicecpa896;P79563d01938230SPCORafservicecpa885;P79563d01938230SPCORafservicecpa902;P79563d01938230SPCORafservicecpa863;P79563d01938230SPCORafservicecpa900;P79563d01938230SPCORafservicecpa878;P79563d01938230SPCORafservicecpa860;P79563d01938230SPCORafservicecpa855;P79563d01938230SPCORafservicecpa890;P79563d01938230SPCORafservicecpa892;P79563d01938230SPCORafservicecpa868;P79563d01938230SPCORafservicecpa898;P79563d01938230SPCORafservicecpa847;P79563d01938230SPCORafservicecpa841;P79563d01938230SPCORafservicecpa887;P79563d01938230SPCORafservicecpa839">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,270" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa878"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa860"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa855"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa868"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa857"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa863"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa872"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa887"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa885"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa892"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa894"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa896"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa900"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa898"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa902"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="89,797" size="199,214" id="P79563d01938230SPCORafservicecpa258" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa914;P79563d01938230SPCORafservicecpa906;P79563d01938230SPCORafservicecpa940;P79563d01938230SPCORafservicecpa928;P79563d01938230SPCORafservicecpa910;P79563d01938230SPCORafservicecpa934;P79563d01938230SPCORafservicecpa924;P79563d01938230SPCORafservicecpa945;P79563d01938230SPCORafservicecpa938;P79563d01938230SPCORafservicecpa918;P79563d01938230SPCORafservicecpa931;P79563d01938230SPCORafservicecpa922;P79563d01938230SPCORafservicecpa912;P79563d01938230SPCORafservicecpa947;P79563d01938230SPCORafservicecpa908;P79563d01938230SPCORafservicecpa943">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,162" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa931"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa928"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa922"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa924"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa934"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa940"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa938"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa945"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa947"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="840,25" size="242,350" id="P79563d01938230SPCORafservicecpa501" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa969;P79563d01938230SPCORafservicecpa958;P79563d01938230SPCORafservicecpa963;P79563d01938230SPCORafservicecpa989;P79563d01938230SPCORafservicecpa982;P79563d01938230SPCORafservicecpa967;P79563d01938230SPCORafservicecpa956;P79563d01938230SPCORafservicecpa952;P79563d01938230SPCORafservicecpa978;P79563d01938230SPCORafservicecpa960;P79563d01938230SPCORafservicecpa971;P79563d01938230SPCORafservicecpa972;P79563d01938230SPCORafservicecpa975;P79563d01938230SPCORafservicecpa987;P79563d01938230SPCORafservicecpa950;P79563d01938230SPCORafservicecpa954">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="219,180" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa960"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa963"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa971"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa989"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa969"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa975"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa987"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa978"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa967"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa982"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,108" viewSorter="Name">
+      <children xsi:type="editmodel:ClassEditModel" size="171,106" id="P79563d01938230SPCORafservicecpa972" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa991;P79563d01938230SPCORafservicecpa994;P79563d01938230SPCORafservicecpa998">
+        <children xsi:type="editmodel:CompartmentEditModel" size="148,18" viewSorter="Name">
+          <children xsi:type="editmodel:AttributeEditModel" id="P79563d01938230SPCORafservicecpa991"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="110,36" viewSorter="Name">
+          <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa994"/>
+          <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa998"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="833,621" size="177,106" id="P79563d01938230SPCORafservicecpa1003" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1007;P79563d01938230SPCORafservicecpa1010;P79563d01938230SPCORafservicecpa1004">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,54" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1004"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1010"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1007"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="635,24" size="194,196" id="P79563d01938230SPCORafservicecpa497" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1117;P79563d01938230SPCORafservicecpa1121;P79563d01938230SPCORafservicecpa1130;P79563d01938230SPCORafservicecpa1135;P79563d01938230SPCORafservicecpa1142;P79563d01938230SPCORafservicecpa1140;P79563d01938230SPCORafservicecpa1107;P79563d01938230SPCORafservicecpa1137;P79563d01938230SPCORafservicecpa1109;P79563d01938230SPCORafservicecpa1111;P79563d01938230SPCORafservicecpa1126;P79563d01938230SPCORafservicecpa1115">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,144" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1117"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1121"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1137"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1135"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1126"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1130"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1142"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1140"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="928,418" size="153,70" id="P79563d01938230SPCORafservicecpa1145" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1146">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1146"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="828,578" size="184,32" id="P79563d01938230SPCORafservicecpa1150" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1160;P79563d01938230SPCORafservicecpa1153;P79563d01938230SPCORafservicecpa1155;P79563d01938230SPCORafservicecpa1151">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="702,418" size="154,106" targetConnections="//@children.17/@sourceConnections.0 //@children.17/@sourceConnections.1" id="P79563d01938230SPCORafservicecpa188" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1178;P79563d01938230SPCORafservicecpa1188;P79563d01938230SPCORafservicecpa1170;P79563d01938230SPCORafservicecpa1166;P79563d01938230SPCORafservicecpa1194;P79563d01938230SPCORafservicecpa1172;P79563d01938230SPCORafservicecpa1176;P79563d01938230SPCORafservicecpa1191;P79563d01938230SPCORafservicecpa1180;P79563d01938230SPCORafservicecpa1186;P79563d01938230SPCORafservicecpa1196;P79563d01938230SPCORafservicecpa1181;P79563d01938230SPCORafservicecpa1168;P79563d01938230SPCORafservicecpa1174;P79563d01938230SPCORafservicecpa1184">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,54" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1186"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1196"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1184"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa1174" connectionRouterKind="Manhattan" source="//@children.17" target="//@children.17" targetEnd="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,62" id="P79563d01938230SPCORafservicecpa1174" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.17/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.17/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="70,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa1176" connectionRouterKind="Manhattan" source="//@children.17" target="//@children.17" targetEnd="//@children.17/@sourceConnections.1/@children.0" sourceEnd="//@children.17/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,18" id="P79563d01938230SPCORafservicecpa1176" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="1" multiplicityLabel="//@children.17/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.17/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="84,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,42" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="171,407" size="182,42" note="Lookup via LookupManager&#xD;&#xA;"/>
+  <children xsi:type="editmodel:NotepadEditModel" location="705,1004" size="154,45" note="Particular lookup &#xD;&#xA;via RuntimeLookup"/>
+  <children xsi:type="editmodel:ClassEditModel" location="81,477" size="245,268" targetConnections="//@children.20/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.3/@sourceConnections.2" id="P79563d01938230SPCORafservicecpa1014" packageIndication="3" runTimeClassModel="P79563d01938230SPCORafservicecpa1032;P79563d01938230SPCORafservicecpa1042;P79563d01938230SPCORafservicecpa1058;P79563d01938230SPCORafservicecpa1021;P79563d01938230SPCORafservicecpa1025;P79563d01938230SPCORafservicecpa1017;P79563d01938230SPCORafservicecpa1054;P79563d01938230SPCORafservicecpa1028;P79563d01938230SPCORafservicecpa1090;P79563d01938230SPCORafservicecpa1068;P79563d01938230SPCORafservicecpa1079;P79563d01938230SPCORafservicecpa1039;P79563d01938230SPCORafservicecpa1375;P79563d01938230SPCORafservicecpa1023;P79563d01938230SPCORafservicecpa1045;P79563d01938230SPCORafservicecpa1051;P79563d01938230SPCORafservicecpa1048;P79563d01938230SPCORafservicecpa1015;P79563d01938230SPCORafservicecpa1099;P79563d01938230SPCORafservicecpa1019;P79563d01938230SPCORafservicecpa1035;P79563d01938230SPCORafservicecpa1061">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="222,216" viewSorter="Name">
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1061"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1032"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1099"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1039"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1058"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1028"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1035"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1051"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1054"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1048"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1042"/>
+      <children xsi:type="editmodel:MethodEditModel" id="P79563d01938230SPCORafservicecpa1045"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="P79563d01938230SPCORafservicecpa1019" connectionRouterKind="Manhattan" source="//@children.20" target="//@children.20" targetEnd="//@children.20/@sourceConnections.0/@children.0" sourceEnd="//@children.20/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,67" id="P79563d01938230SPCORafservicecpa1019" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.20/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.20/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="60,16" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="22,16" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,31" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" hostname="ch00vsi3s" id="SAP Server1472159594533" name="SAP Server&lt;SI3&gt;" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="2193">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:cXMLEAR"/>
+    <map SYSTEM_NAME="SI3" key="generic_server_instance_properties" number="1" projectName="cXML" run_debug_on_srv=""/>
+    <list key="modules" value0="cXMLEAR::org.eclipse.jst.jee.server:cXMLEAR::jst.ear::5.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00vdi3s" id="SAP Server1472810780955" name="SAP Server&lt;DI3&gt;" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="2088">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:ChannelManagerEAR" value1="org.eclipse.jst.jee.server:cXMLEAR" value2="org.eclipse.jst.jee.server:DataEAR"/>
+    <map SYSTEM_NAME="DI3" key="generic_server_instance_properties" number="1" projectName="ChannelManager" run_debug_on_srv=""/>
+    <list key="modules" value0="ChannelManagerEAR::org.eclipse.jst.jee.server:ChannelManagerEAR::jst.ear::5.0" value1="cXMLEAR::org.eclipse.jst.jee.server:cXMLEAR::jst.ear::5.0" value2="DataEAR::org.eclipse.jst.jee.server:DataEAR::jst.ear::5.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00voi3s" id="SAP Server1472810863705" name="SAP Server&lt;OI3&gt;" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="2079">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:FileAdapModuleEAR" value1="org.eclipse.jst.j2ee.server:DynamicQueues_EAR" value2="org.eclipse.jst.jee.server:ChannelManagerEAR" value3="org.eclipse.jst.jee.server:MessageCloudEAR" value4="org.eclipse.jst.jee.server:DataManagerEAR"/>
+    <map SYSTEM_NAME="OI3" key="generic_server_instance_properties" number="1" projectName="DynamicQueues_EJB"/>
+    <list key="modules" value0="FileAdapModuleEAR::org.eclipse.jst.jee.server:FileAdapModuleEAR::jst.ear::5.0" value1="DynamicQueues_EAR::org.eclipse.jst.j2ee.server:DynamicQueues_EAR::jst.ear::1.4" value2="ChannelManagerEAR::org.eclipse.jst.jee.server:ChannelManagerEAR::jst.ear::5.0" value3="MessageCloudEAR::org.eclipse.jst.jee.server:MessageCloudEAR::jst.ear::5.0" value4="DataManagerEAR::org.eclipse.jst.jee.server:DataManagerEAR::jst.ear::5.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00vqi3s" id="SAP Server1473925340342" name="QI3" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="1907">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:FileAdapModuleEAR" value1="org.eclipse.jst.jee.server:cXMLEAR" value2="org.eclipse.jst.jee.server:ChannelManagerEAR"/>
+    <map SYSTEM_NAME="QI3" key="generic_server_instance_properties" number="1" projectName="com.equalize.xpi.af.modules.ejb" run_debug_on_srv=""/>
+    <list key="modules" value0="FileAdapModuleEAR::org.eclipse.jst.jee.server:FileAdapModuleEAR::jst.ear::5.0" value1="cXMLEAR::org.eclipse.jst.jee.server:cXMLEAR::jst.ear::5.0" value2="ChannelManagerEAR::org.eclipse.jst.jee.server:ChannelManagerEAR::jst.ear::5.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00vpi3s" id="sapserver_PI3" id-set="true" name="PI3" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="1158">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:ChannelManagerEAR"/>
+    <map SYSTEM_NAME="PI3" key="generic_server_instance_properties" number="1" projectName="ChannelManager" run_debug_on_srv=""/>
+    <list key="modules" value0="ChannelManagerEAR::org.eclipse.jst.jee.server:ChannelManagerEAR::jst.ear::5.0"/>
+  </server>
+  <server hostname="localhost" id="JBoss v5.0 at localhost" name="JBoss v5.0 at localhost" runtime-id="JBoss v5.0" server-type="org.eclipse.jst.server.generic.jboss5" server-type-id="org.eclipse.jst.server.generic.jboss5" start-timeout="50" stop-timeout="15" timestamp="2">
+    <map jndiPort="1099" key="generic_server_instance_properties" port="8080" serverAddress="127.0.0.1" serverConfig="default"/>
+    <list key="modules" value0="HelloServlet::org.eclipse.jst.jee.server:HelloServlet::jst.web::2.5" value1="ChannelManagerEAR::org.eclipse.jst.jee.server:ChannelManagerEAR::jst.ear::5.0"/>
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:HelloServlet" value1="org.eclipse.jst.jee.server:ChannelManagerEAR"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00vsi5s" id="sapserver_SI5" id-set="true" name="SAP Server&lt;SI5&gt;" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="64">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:cXMLEAR"/>
+    <map SYSTEM_NAME="SI5" key="generic_server_instance_properties" number="1" projectName="cXML" run_debug_on_srv=""/>
+    <list key="modules" value0="cXMLEAR::org.eclipse.jst.jee.server:cXMLEAR::jst.ear::5.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="ch00voi5s" id="sapserver_OI5" id-set="true" name="SAP Server&lt;OI5&gt;" server-type="org.eclipse.jst.server.generic.sap" server-type-id="org.eclipse.jst.server.generic.sap" start-timeout="900" stop-timeout="900" timestamp="2">
+    <map SYSTEM_NAME="OI5" key="generic_server_instance_properties" number="1"/>
+  </server>
+</servers>

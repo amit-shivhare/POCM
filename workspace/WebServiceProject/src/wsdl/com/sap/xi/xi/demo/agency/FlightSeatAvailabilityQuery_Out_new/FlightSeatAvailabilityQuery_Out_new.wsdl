@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://sap.com/xi/XI/Demo/Agency" xmlns:p2="http://sap.com/xi/XI/Demo/Airline" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="FlightSeatAvailabilityQuery_Out_new" targetNamespace="http://sap.com/xi/XI/Demo/Agency">
+  <wsdl:documentation>Flight seat availability query - Out (new 7.20) (only for use in XI Demo)</wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>19c26e8101b311dec09f001b78e0f918</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState>N</objectState>
+      <objectstatus value="A"/>
+      <personresponsible value="sap"/>
+      <changed by="sap" on="1235397998917"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="19ca21d823393cad9da5a60dc6beacc1"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="FlightSeatAvailabilityQuery_Out">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState>N</objectState>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects>
+          <ifw:contextobject>
+            <ifw:ref>
+              <ifw:vc swcGuid="7e9a3ca782ab11dfb3adf6750a424100" vcType="S"/>
+              <ifw:key typeID="ifmcontobj">
+                <ifw:elem>AirlineID</ifw:elem>
+                <ifw:elem>http://sap.com/xi/XI/Demo/Agency</ifw:elem>
+              </ifw:key>
+            </ifw:ref>
+            <xpath>
+              <ifw:xpathName name="FlightSeatAvailabilityQuery" namespace="http://sap.com/xi/XI/Demo/Airline" order="1"/>
+              <ifw:xpathName name="FlightID" namespace="" order="2"/>
+              <ifw:xpathName name="AirlineID" namespace="" order="3"/>
+            </xpath>
+          </ifw:contextobject>
+        </ifw:contextobjects>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="FlightSeatAvailabilityQuery">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">FlightSeatAvailabilityQuery</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://sap.com/xi/XI/Demo/Agency</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://sap.com/xi/XI/Demo/Agency</ifw:technicalNamespace>
+        <ifw:VersionID>685ef9e10e3511d894d20002b3ca4e60</ifw:VersionID>
+        <ifw:xmlNamespace>http://sap.com/xi/XI/Demo/Airline</ifw:xmlNamespace>
+        <ifw:dataType name="FlightSeatAvailabilityQuery" namespace="http://sap.com/xi/XI/Demo/Agency" swcvId="7e9a3ca782ab11dfb3adf6750a424100" uri="name=FlightSeatAvailabilityQuery~namespace=http://sap.com/xi/XI/Demo/Agency~swcvId=7e9a3ca782ab11dfb3adf6750a424100"/>
+      </ifw:message>
+      <ifw:message name="FlightSeatAvailabilityResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">FlightSeatAvailabilityResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://sap.com/xi/XI/Demo/Agency</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://sap.com/xi/XI/Demo/Agency</ifw:technicalNamespace>
+        <ifw:VersionID>475667110e3511d8c3f60002b3ca4e60</ifw:VersionID>
+        <ifw:xmlNamespace>http://sap.com/xi/XI/Demo/Airline</ifw:xmlNamespace>
+        <ifw:dataType name="FlightSeatAvailabilityResponse" namespace="http://sap.com/xi/XI/Demo/Agency" swcvId="7e9a3ca782ab11dfb3adf6750a424100" uri="name=FlightSeatAvailabilityResponse~namespace=http://sap.com/xi/XI/Demo/Agency~swcvId=7e9a3ca782ab11dfb3adf6750a424100"/>
+      </ifw:message>
+      <ifw:message name="FlightNotFound">
+        <ifw:messType>ifmfaultm</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">FlightNotFound</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://sap.com/xi/XI/Demo/Agency</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://sap.com/xi/XI/Demo/Agency</ifw:technicalNamespace>
+        <ifw:VersionID>31b4aa41106311d8c92c0002b3ca4e60</ifw:VersionID>
+        <ifw:xmlNamespace>http://sap.com/xi/XI/Demo/Airline</ifw:xmlNamespace>
+        <ifw:dataType name="ExchangeFaultData" namespace="http://sap.com/xi/XI/Demo/Agency" swcvId="7e9a3ca782ab11dfb3adf6750a424100" uri="name=ExchangeFaultData~namespace=http://sap.com/xi/XI/Demo/Agency~swcvId=7e9a3ca782ab11dfb3adf6750a424100"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>7e9a3ca782ab11dfb3adf6750a424100</ifw:guid>
+        <ifw:name>SAP BASIS 7.31</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_19ca21d823393cad9da5a60dc6beacc1_ifmmessif</name>
+        <namespace>http://sap.com/xi/XI/Demo/Agency</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_FlightSeatAvailabilityQuery_Out"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://sap.com/xi/XI/Demo/Agency" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://sap.com/xi/XI/Demo/Agency">
+      <xsd:complexType name="FlightSeatAvailabilityResponse">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="EN">Flight seat availability response (only for use in XI Demo)</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="EconomyMaxSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Maximal seats economy class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="EconomyFreeSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Free seats economy class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BusinessMaxSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Maximal seats business class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BusinessFreeSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Free seats business class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="FirstMaxSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Maximal seats first class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="FirstFreeSeats" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Free seats first class</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightID">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="EN">Flight ID (only for use in XI Demo)</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="AirlineID">
+            <xsd:annotation>
+              <xsd:documentation>Airline ID</xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="3"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="ConnectionID">
+            <xsd:annotation>
+              <xsd:documentation>Connection ID</xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="4"/>
+                <xsd:pattern value="\d+"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="FlightDate" type="xsd:date">
+            <xsd:annotation>
+              <xsd:documentation>Flight date</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightSeatAvailabilityQuery">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="EN">Flight seat availability query (only for use in XI Demo)</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="FlightID" type="FlightID">
+            <xsd:annotation>
+              <xsd:documentation>Flight ID</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeLogData">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="severity" type="xsd:string"/>
+          <xsd:element name="text" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="url" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="id" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeFaultData">
+        <xsd:sequence>
+          <xsd:element name="faultText" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="faultUrl" type="xsd:string"/>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="faultDetail" type="ExchangeLogData"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://sap.com/xi/XI/Demo/Airline" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://sap.com/xi/XI/Demo/Airline">
+      <xsd:import namespace="http://sap.com/xi/XI/Demo/Agency"/>
+      <xsd:element name="FlightSeatAvailabilityQuery" type="p1:FlightSeatAvailabilityQuery"/>
+      <xsd:element name="FlightSeatAvailabilityResponse" type="p1:FlightSeatAvailabilityResponse"/>
+      <xsd:element name="FlightNotFound">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="standard" type="p1:ExchangeFaultData"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="FlightSeatAvailabilityQuery">
+    <wsdl:documentation>Flight seat availability query (only for use in XI Demo)</wsdl:documentation>
+    <wsdl:part element="p2:FlightSeatAvailabilityQuery" name="FlightSeatAvailabilityQuery"/>
+  </wsdl:message>
+  <wsdl:message name="FlightSeatAvailabilityResponse">
+    <wsdl:documentation>Flight seat availability response (only for use in XI Demo)</wsdl:documentation>
+    <wsdl:part element="p2:FlightSeatAvailabilityResponse" name="FlightSeatAvailabilityResponse"/>
+  </wsdl:message>
+  <wsdl:message name="FlightNotFound">
+    <wsdl:documentation>Flight not found (only for use in XI Demo)</wsdl:documentation>
+    <wsdl:part element="p2:FlightNotFound" name="FlightNotFound"/>
+  </wsdl:message>
+  <wsdl:portType name="FlightSeatAvailabilityQuery_Out_new">
+    <wsdl:documentation>Flight seat availability query - Out (new 7.20) (only for use in XI Demo)</wsdl:documentation>
+    <wsdl:operation name="FlightSeatAvailabilityQuery_Out">
+      <wsdl:documentation>Flight seat availability query - Out (only for use in XI Demo)</wsdl:documentation>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_FlightSeatAvailabilityQuery_Out"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:FlightSeatAvailabilityQuery"/>
+      <wsdl:output message="p1:FlightSeatAvailabilityResponse"/>
+      <wsdl:fault message="p1:FlightNotFound" name="FlightNotFound"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FlightSeatAvailabilityQuery_Out_newBinding" type="p1:FlightSeatAvailabilityQuery_Out_new">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="FlightSeatAvailabilityQuery_Out">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="FlightNotFound">
+        <soap:fault xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="FlightNotFound" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+<wsdl:service name="FlightSeatAvailabilityQuery_Out_new_Service">
+<wsdl:port xmlns:bprf="http://sap.com/xi/XI/Demo/Agency" binding="bprf:FlightSeatAvailabilityQuery_Out_newBinding" name="FlightSeatAvailabilityQuery_Out_new_Port">
+<soap:address xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" location="/"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

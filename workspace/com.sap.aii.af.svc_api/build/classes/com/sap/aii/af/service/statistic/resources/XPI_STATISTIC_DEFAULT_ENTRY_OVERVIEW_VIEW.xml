@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<View xmlns="http://sap.com/xi/XI/Message/30" profile="XPI">
+<Name>SR_ENTRY_OVERVIEW_XPI</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.SR_ENTRY_OVERVIEW_XPI">
+  <Label language="EN">Message status sender - receiver (overview)</Label>
+</GuiLabels>
+<EntryView default="true">true</EntryView>
+<ViewReference>
+  <ReferenceName>XPI_CHILD_VIEW</ReferenceName>
+</ViewReference>
+
+	
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+  		
+            <AttributeGroupReference>
+  	      <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	      <AttributeReference>
+	        <ReferenceName>FROM_SERVICE_NAME</ReferenceName>
+	      </AttributeReference>
+	      <AttributeReference>
+	        <ReferenceName>TO_SERVICE_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>ACTION_NAME</ReferenceName>
+	      </AttributeReference>
+
+	    </AttributeGroupReference>
+
+  	</AggregationAttributes>
+  
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+  
+	     <AggregationGroupReference>
+  	       <ReferenceName>AGGR_VAL_GROUP</ReferenceName>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>ERROR</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SCHEDULED</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SUCCESSFUL</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>CANCEL</ReferenceName>
+  	       </AttributeGroupReference>
+	     </AggregationGroupReference>
+
+	</AggregationValues>
+
+</View>

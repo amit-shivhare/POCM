@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.5.0_15-b04 (Sun Microsystems Inc.)
+Edition: 711SP07
+Implementation-Vendor-Id: sap.com
+Implementation-Version: 7.1107.20110714095031.0000
+Perforce-Server: perforce3710.wdf.sap.corp:3710
+Changelist: 152549
+
+Name: origin
+project: xpi.af
+release: NW711_07_REL
+subproject: _af_service
+environment: com.sap.aii.af.svc
+envtype: psrv
+gendir: D:/depot/_build/tc/xpi.af/NW711_~2/gen/dbg/java/sub/_af_servic
+ e/e/01
+
+Name: sap-component
+component: com.sap.aii.af.svc
+type: ServerComponent
+sub-type: PrimaryService
+provider: sap.com
+flavors: ServerComponent
+project: xpi.af
+subproject: _af_service
+

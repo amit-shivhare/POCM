@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="144" key="DIALOG_Y_ORIGIN"/>
+		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="1170" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="PIHost" key="selection"/>
+		<list key="findhistory">
+			<item value="PIHost"/>
+			<item value="oi3"/>
+			<item value="ECO"/>
+			<item value="credit"/>
+			<item value="Payload.setName"/>
+			<item value="attachment"/>
+			<item value="action"/>
+			<item value="Cxml"/>
+		</list>
+		<list key="replacehistory">
+			<item value="[5]"/>
+			<item value="_Credentials"/>
+			<item value=""/>
+			<item value="&apos;&apos;"/>
+			<item value="320"/>
+			<item value="^"/>
+			<item value="-=-"/>
+			<item value="190"/>
+		</list>
+	</section>
+</section>

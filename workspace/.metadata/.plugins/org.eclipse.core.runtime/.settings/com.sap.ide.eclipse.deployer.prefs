@@ -1,0 +1,4 @@
+#Thu Aug 09 15:54:01 CEST 2018
+eclipse.preferences.version=1
+DeployView.result.ok=never
+com.sap.ide.eclipse.deployer.prefs.DeploymentPreferencePage.undeploy.confirm.on.err.stop=never

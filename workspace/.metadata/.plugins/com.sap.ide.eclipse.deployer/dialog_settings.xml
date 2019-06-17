@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="tree_sorters">
+		<section name="By version">
+			<item value="false" key="selected"/>
+			<item value="0" key="type"/>
+		</section>
+		<section name="By name">
+			<item value="true" key="selected"/>
+			<item value="0" key="type"/>
+		</section>
+		<section name="By software type">
+			<item value="false" key="selected"/>
+			<item value="0" key="type"/>
+		</section>
+		<section name="By vendor">
+			<item value="false" key="selected"/>
+			<item value="0" key="type"/>
+		</section>
+	</section>
+	<section name="tree_filters">
+		<section name="categories">
+			<section name="Pattern">
+				<section name="SDA vendor">
+					<item value="1" key="type"/>
+					<section name="pattern-matching">
+						<item value="false" key="case-sensitive"/>
+						<item value="" key="pattern"/>
+						<item value="false" key="exclude-pattern"/>
+					</section>
+				</section>
+				<section name="SDA name">
+					<item value="0" key="type"/>
+					<section name="pattern-matching">
+						<item value="false" key="case-sensitive"/>
+						<item value="" key="pattern"/>
+						<item value="false" key="exclude-pattern"/>
+					</section>
+				</section>
+			</section>
+			<section name="Software Type">
+				<section name="Library">
+				</section>
+				<section name="Application">
+				</section>
+				<section name="File System">
+				</section>
+			</section>
+		</section>
+		<section name="filters">
+		</section>
+	</section>
+</section>

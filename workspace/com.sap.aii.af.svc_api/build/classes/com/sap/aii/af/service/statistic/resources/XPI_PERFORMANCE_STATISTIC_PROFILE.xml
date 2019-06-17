@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Profile xmlns="http://sap.com/xi/XI/Message/30" applicationName="XPI_PERFORMANCE_STATISTIC" applicationNamespace="http://sap.com/xi/XI/Message/30" applicationPrefix="sap">
+<Name>XPI_PERFORMANCE</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.PROFILE_XPI_PERFORMANCE">
+  <Label language="EN">XPI_PERFORMANCE</Label>
+</GuiLabels>
+
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+					  
+             <AttributeGroup>	       
+		<Name>AGGR_ATTR_GROUP</Name>
+		<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_GROUP">
+		   <Label language="EN">aggregation attribute group</Label>
+	  	</GuiLabels>
+	  	
+	       <Attribute>
+	 	 <Name>INBOUND_CHANNEL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_INB_CHANNEL">
+		   <Label language="EN">Inbound channel</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>OUTBOUND_CHANNEL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_OUTB_CHANNEL">
+		   <Label language="EN">Outbound channel</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>DIRECTION</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_DIRECTION">
+		   <Label language="EN">Direction</Label>
+		 </GuiLabels>
+		 <Length>8</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>DELIVERY_SEMANTICS</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_DELIVERY_SEMANTICS">
+		   <Label language="EN">Quality of Service</Label>
+		 </GuiLabels>
+		 <Length>4</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>SERVER_NODE</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_SERVER_NODE">
+		   <Label language="EN">Server-Node</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:integer</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>FROM_PARTY_NAME</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_FROM_PARTY_NAME">
+		   <Label language="EN">Sender-Party</Label>
+		 </GuiLabels>
+		 <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>FROM_SERVICE_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_FROM_SERVICE_NAME">
+	           <Label language="EN">Sender-Service</Label>
+	         </GuiLabels>
+	         <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+	     
+	       <Attribute>
+	 	 <Name>TO_PARTY_NAME</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_TO_PARTY_NAME">
+		   <Label language="EN">Receiver-Party</Label>
+		 </GuiLabels>
+		 <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>TO_SERVICE_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_TO_SERVICE_NAME">
+	           <Label language="EN">Receiver-Service</Label>
+	         </GuiLabels>
+	         <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+	     
+	       <Attribute>
+	         <Name>ACTION_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_ACTION_NAME">
+	           <Label language="EN">Interface</Label>
+	         </GuiLabels>
+	         <Length>120</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>ACTION_TYPE</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_ACTION_TYPE">
+	           <Label language="EN">Interface-Namespace</Label>
+	         </GuiLabels>
+	         <Length>80</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	     </AttributeGroup>
+
+	</AggregationAttributes>
+
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+
+	     <AggregationGroup>
+	       <Name>AGGR_VAL_GROUP</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP">
+	         <Label language="EN">aggregation value group</Label>
+  	       </GuiLabels>
+	       <AttributeGroupReference>	       
+	         <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	       </AttributeGroupReference>
+
+	       <AttributeGroup>	       
+		 <Name>MESSAGE_COUNTER</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_MSG_COUNT">
+	   <Label language="EN">message counter</Label>
+	  	 </GuiLabels>
+	  		   
+	         <AttributeReference>
+	  	   <ReferenceName>MESSAGE_COUNTER</ReferenceName>
+	         </AttributeReference>	
+
+	       </AttributeGroup>
+		   
+	       <AttributeGroup>	
+		 <Name>MESSAGE_SIZE</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_MSG_SIZE">
+		   <Label language="EN">message size</Label>
+	  	 </GuiLabels>
+	  		   
+	         <AttributeReference>
+	  	   <ReferenceName>MAX_MESSAGE_SIZE</ReferenceName>
+	         </AttributeReference>	
+
+	         <AttributeReference>
+	  	   <ReferenceName>MIN_MESSAGE_SIZE</ReferenceName>
+	         </AttributeReference>	
+
+	         <AttributeReference>
+	  	   <ReferenceName>AVG_MESSAGE_SIZE</ReferenceName>
+	         </AttributeReference>	
+
+  	       </AttributeGroup>
+  		   
+	       <AttributeGroup>	       
+		 <Name>RETRY_COUNTER</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_RET_COUNT">
+		   <Label language="EN">retry counter</Label>
+	  	 </GuiLabels>
+	  		   
+	         <AttributeReference>
+	  	   <ReferenceName>MAX_RETRY_COUNTER</ReferenceName>
+	         </AttributeReference>	
+
+	         <AttributeReference>
+	  	   <ReferenceName>MIN_RETRY_COUNTER</ReferenceName>
+	         </AttributeReference>	
+
+	         <AttributeReference>
+	  	   <ReferenceName>AVG_RETRY_COUNTER</ReferenceName>
+	         </AttributeReference>	
+
+  	       </AttributeGroup>
+  		   
+	       <Attributes>	       
+		 <Name>AGGR_VAL_ATTR</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR">
+		   <Label language="EN">aggregation value attributes</Label>
+	  	 </GuiLabels>
+	  	 
+	  	 <Attribute>
+		   <Name>MESSAGE_COUNTER</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_MSG_COUNT">
+		     <Label language="EN">message counter</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>MESSAGE_COUNTER</AttributeValue>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>		   <Name>MAX_MESSAGE_SIZE</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_MAX_MSG_SIZE">
+		     <Label language="EN">message size (maximum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>MAX_MESSAGE_SIZE</AttributeValue>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>
+		   <Name>MIN_MESSAGE_SIZE</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_MIN_MSG_SIZE">
+		     <Label language="EN">message size (minimum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>MIN_MESSAGE_SIZE</AttributeValue>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>
+		   <Name>AVG_MESSAGE_SIZE</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_AVG_MSG_SIZE">
+		     <Label language="EN">message size (average)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>AVG_MESSAGE_SIZE</AttributeValue>
+	  	 </Attribute>
+	  		     	  		     
+	  	 <Attribute>
+		   <Name>MAX_RETRY_COUNTER</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_MAX_RET_COUNT">
+		     <Label language="EN">retry counter (maximum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>MAX_RETRY_COUNTER</AttributeValue>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>
+		   <Name>MIN_RETRY_COUNTER</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_MIN_RET_COUNT">
+		     <Label language="EN">retry counter (minimum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>MIN_RETRY_COUNTER</AttributeValue>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>
+		   <Name>AVG_RETRY_COUNTER</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_AVG_RET_COUNT">
+		     <Label language="EN">retry counter (average)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>AVG_RETRY_COUNTER</AttributeValue>
+	  	 </Attribute>
+	  		     
+	       </Attributes>	       
+
+	       <ModelGroup>	       
+		 <Name>MEASURING_POINTS</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_MEAS_POINT">
+		   <Label language="EN">measuring points</Label>
+	  	 </GuiLabels>
+	  		   
+	         <ModelGroupReference minOccurs="0" maxOccurs="unbounded">
+	  	   <ReferenceName>MEASURING_POINT</ReferenceName>
+	         </ModelGroupReference>	
+
+  	       </ModelGroup>
+  		   
+	       <ModelGroups>	       
+		 <Name>AGGR_VAL_MOD_GROUP</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD_GROUP">
+		   <Label language="EN">aggregation value model groups</Label>
+	  	 </GuiLabels>
+	  		   
+	       <ModelGroup>	       
+		 <Name>MEASURING_POINT</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD_GROUP_MEAS_POINT">
+		   <Label language="EN">measuring point</Label>
+	  	 </GuiLabels>
+	  		   
+	         <ModelReference>
+	  	   <ReferenceName>MAX_MEASURING_POINT</ReferenceName>
+	         </ModelReference>	
+
+	         <ModelReference>
+	  	   <ReferenceName>MIN_MEASURING_POINT</ReferenceName>
+	         </ModelReference>	
+
+	         <ModelReference>
+	  	   <ReferenceName>AVG_MEASURING_POINT</ReferenceName>
+	         </ModelReference>	
+
+  	       </ModelGroup>
+
+  	       </ModelGroups>
+  		   
+	       <Models>	       
+		 <Name>AGGR_VAL_MOD</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD">
+		   <Label language="EN">aggregation value models</Label>
+	  	 </GuiLabels>
+	  	 
+	  	 <Model>
+		   <Name>MAX_MEASURING_POINT</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD_MAX_MEAS_POINT">
+		     <Label language="EN">measuring point (maximum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	  	 </Model>
+
+	  	 <Model>
+		   <Name>MIN_MEASURING_POINT</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD_MIN_MEAS_POINT">
+		     <Label language="EN">measuring point (minimum)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	  	 </Model>
+
+	  	 <Model>
+		   <Name>AVG_MEASURING_POINT</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_MOD_AVG_MEAS_POINT">
+		     <Label language="EN">measuring point (average)</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	  	 </Model>
+
+	       </Models>	       
+
+	     </AggregationGroup>
+            
+	</AggregationValues>
+
+	<AggregationPeriods>
+        <Name>AGGR_PER</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER">
+          <Label language="EN">aggregation periods</Label>
+        </GuiLabels>
+	  
+        <Attributes>	       
+	  <Name>AGGR_PER_ATTR</Name>
+	  <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_ATTR">
+	    <Label language="EN">aggregation period attributes</Label>
+  	  </GuiLabels>
+
+	     <Attribute>
+	       <Name>MINUTE</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_MINUTE">
+	         <Label language="EN">minute</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i15%maxc4</AttributeValue>
+	     </Attribute>
+
+	     <Attribute>
+	       <Name>HOURLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_HOURLY">
+	         <Label language="EN">hourly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc12</AttributeValue>
+	     </Attribute>
+
+	     <Attribute>
+	       <Name>DAILY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_DAILY">
+	         <Label language="EN">daily</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc7</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>WEEKLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_WEEKLY">
+	         <Label language="EN">weekly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc4</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>MONTHLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_MONTHLY">
+	         <Label language="EN">monthly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc12</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>ANNUALLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_ANNUALLY">
+	         <Label language="EN">annually</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc9999</AttributeValue>
+	     </Attribute>
+	     
+        </Attributes>	       
+
+	</AggregationPeriods>
+
+</Profile>

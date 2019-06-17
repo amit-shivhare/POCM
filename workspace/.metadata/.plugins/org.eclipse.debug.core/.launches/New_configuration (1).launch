@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.debug.framework.commonLaunchConfiguration">
+<booleanAttribute key="com.sap.ide.debug.framework.BuildDeploy" value="false"/>
+<stringAttribute key="com.sap.ide.debug.framework.launchString" value=""/>
+<stringAttribute key="com.sap.ide.debug.framework.moduleArtifact" value=""/>
+<stringAttribute key="com.sap.ide.debug.framework.moduleID" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value=""/>
+</launchConfiguration>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Zipfoldermodule_EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="Zipfoldermodule_EJB.jar" deploy-path="/" handle="module:/resource/Zipfoldermodule_EJB/Zipfoldermodule_EJB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.aii.af.cpa.svc.api.jar" deploy-path="/" handle="module:/resource/com.sap.aii.af.cpa.svc.api/com.sap.aii.af.cpa.svc.api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.aii.af.lib.mod.jar" deploy-path="/" handle="module:/resource/com.sap.aii.af.lib.mod/com.sap.aii.af.lib.mod">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.aii.af.ms.ifc_api.jar" deploy-path="/" handle="module:/resource/com.sap.aii.af.ms.ifc_api/com.sap.aii.af.ms.ifc_api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.aii.af.svc_api.jar" deploy-path="/" handle="module:/resource/com.sap.aii.af.svc_api/com.sap.aii.af.svc_api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.aii.mapping.api.filter.jar" deploy-path="/" handle="module:/resource/com.sap.aii.mapping.api.filter/com.sap.aii.mapping.api.filter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.xi.mapping.tool.lib_api.jar" deploy-path="/" handle="module:/resource/com.sap.xi.mapping.tool.lib_api/com.sap.xi.mapping.tool.lib_api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sap.com~tc~logging~java~impl.jar" deploy-path="/" handle="module:/resource/sap.com~tc~logging~java~impl/sap.com~tc~logging~java~impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

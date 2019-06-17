@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.5.0_15-b04 (Sun Microsystems Inc.)
+Edition: 711SP07
+Implementation-Vendor-Id: sap.com
+Implementation-Version: 7.1107.20110714085044.0000
+Perforce-Server: perforce3710.wdf.sap.corp:3710
+Changelist: 150900
+
+Name: origin
+project: xpi.libs
+release: NW711_07_REL
+subproject: _af_library_module
+environment: com.sap.aii.af.lib.mod
+envtype: jar
+gendir: D:/depot/_build/tc/XPI~1.LIB/NW711_~2/gen/dbg/java/sub/_af_libra
+ ry_module/e/01
+
+Name: sap-component
+component: com.sap.aii.af.lib.mod
+type: Module
+sub-type: LibraryModule
+provider: sap.com
+flavors: ServerComponent
+project: xpi.libs
+subproject: _af_library_module
+api: true
+apiforwarding: true
+testarchive: false
+dependencies: -*engine.j2ee14.facade*sap.com*j2ee.facades*_engine.j2ee14
+ .facade**GenericComponent*Library*EclipseComponent&Plugin&&&&&runtime-v
+ ersion=2.0.0.110713105400;ServerComponent&PrimaryLibrary&&&&**,-*com.sa
+ p.xi.util.misc*sap.com*xpi.libs*_utilxi_library**ServerComponent*Primar
+ yLibrary*ServerComponent**,-*engine.rprof.dbprofiles.lib.facade*sap.com
+ *j2ee.facades*_engine.rprof.dbprofiles.lib.facade**GenericComponent*Lib
+ rary*ServerComponent&PrimaryLibrary&&&&**,-*com.sap.aii.af.ms.ifc*sap.c
+ om*xpi.ms*_interface**ServerComponent*PrimaryInterface*ServerComponent*
+ *,-*com.sap.base.sld.facade*sap.com*common.facades*_base.sld.facade**Ge
+ nericComponent*Library*EclipseComponent&Plugin&&&&&runtime-version=2.0.
+ 0.110712080440;ServerComponent&PrimaryLibrary&&&&**,-*engine.applicatio
+ n.lib.facade*sap.com*j2ee.facades*_engine.application.lib.facade**Gener
+ icComponent*Library*ServerComponent&PrimaryLibrary&&&&**,-*com.sap.base
+ .technology.facade*sap.com*common.facades*_base.technology.facade**Gene
+ ricComponent*Library*EclipseComponent&Plugin&&&&&runtime-version=2.0.0.
+ 110712080440;ServerComponent&PrimaryLibrary&&&&**
+assemblies: +*com.sap.aii.utilxi.core*sap.com*xpi.libs*_utilxi_core_libr
+ ary_module**Module*LibraryModule*ServerComponent**<=+*com.sap.xi.util.m
+ isc*sap.com*xpi.libs*_utilxi_library**ServerComponent*PrimaryLibrary*Se
+ rverComponent**<-,+*com.sap.aii.proxy.gen*sap.com*xpi.libs*_utilxi_prox
+ ygen_library_module**Module*LibraryModule*ServerComponent**<=+*com.sap.
+ xi.util.misc*sap.com*xpi.libs*_utilxi_library**ServerComponent*PrimaryL
+ ibrary*ServerComponent**<-,+*com.sap.aii.utilxi.server*sap.com*xpi.libs
+ *_utilxi_server_library_module**Module*LibraryModule*ServerComponent**<
+ =+*com.sap.xi.util.misc*sap.com*xpi.libs*_utilxi_library**ServerCompone
+ nt*PrimaryLibrary*ServerComponent**<-
+

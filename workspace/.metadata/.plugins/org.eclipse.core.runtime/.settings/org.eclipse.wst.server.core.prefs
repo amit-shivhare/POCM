@@ -1,0 +1,5 @@
+#Fri Feb 08 15:20:58 CET 2019
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="sapruntime" id-set\="true" location\=" " name\="SAP Libraries" runtime-type-id\="sapruntime" timestamp\="0"/>\r\n  <runtime id\="JBoss v5.0" location\="C\:/NWDS/Tool/Jboss 5.0/jboss-5.0.1.GA/bin" name\="JBoss v5.0" runtime-type-id\="org.eclipse.jst.server.generic.runtime.jboss5" server_definition_id\="org.eclipse.jst.server.generic.runtime.jboss5" timestamp\="0">\r\n    <map key\="generic_server_instance_properties" serverRootDirectory\="C\:/NWDS/Tool/Jboss 5.0/jboss-5.0.1.GA"/>\r\n  </runtime>\r\n  <runtime id\="Apache Tomcat v6.0" location\="C\:/Users/kumar-81/Documents/Project/Java- Dev/Servers/apache-tomcat-6.0.14" name\="Apache Tomcat v6.0" runtime-type-id\="org.eclipse.jst.server.tomcat.runtime.60" timestamp\="0"/>\r\n</runtimes>\r\n
+eclipse.preferences.version=1
+auto-publish=false

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Profile xmlns="http://sap.com/xi/XI/Message/30" applicationName="XPI_STATISTIC" applicationNamespace="http://sap.com/xi/XI/Message/30" applicationPrefix="sap">
+<Name>XPI</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.PROFILE_XPI">
+  <Label language="EN">XPI</Label>
+</GuiLabels>
+
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+					  
+             <AttributeGroup>	       
+		<Name>AGGR_ATTR_GROUP</Name>
+		<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_GROUP">
+		   <Label language="EN">aggregation attribute group</Label>
+	  	</GuiLabels>
+	  	
+	       <Attribute>
+	 	 <Name>INBOUND_CHANNEL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_INB_CHANNEL">
+		   <Label language="EN">Inbound channel</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>OUTBOUND_CHANNEL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_OUTB_CHANNEL">
+		   <Label language="EN">Outbound channel</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>DIRECTION</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_DIRECTION">
+		   <Label language="EN">Direction</Label>
+		 </GuiLabels>
+		 <Length>8</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>DELIVERY_SEMANTICS</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_DELIVERY_SEMANTICS">
+		   <Label language="EN">Quality of Service</Label>
+		 </GuiLabels>
+		 <Length>4</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>SERVER_NODE</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_SERVER_NODE">
+		   <Label language="EN">Server-Node</Label>
+		 </GuiLabels>
+		 <Length>0</Length>
+	         <DataType>xsd:integer</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	 	 <Name>FROM_PARTY_NAME</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_FROM_PARTY_NAME">
+		   <Label language="EN">Sender-Party</Label>
+		 </GuiLabels>
+		 <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>FROM_SERVICE_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_FROM_SERVICE_NAME">
+	           <Label language="EN">Sender-Service</Label>
+	         </GuiLabels>
+	         <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+	     
+	       <Attribute>
+	 	 <Name>TO_PARTY_NAME</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_TO_PARTY_NAME">
+		   <Label language="EN">Receiver-Party</Label>
+		 </GuiLabels>
+		 <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>TO_SERVICE_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_TO_SERVICE_NAME">
+	           <Label language="EN">Receiver-Service</Label>
+	         </GuiLabels>
+	         <Length>60</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+	     
+	       <Attribute>
+	         <Name>ACTION_NAME</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_ACTION_NAME">
+	           <Label language="EN">Interface</Label>
+	         </GuiLabels>
+	         <Length>120</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	       <Attribute>
+	         <Name>ACTION_TYPE</Name>
+	         <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ATTR_ACTION_TYPE">
+	           <Label language="EN">Interface-Namespace</Label>
+	         </GuiLabels>
+	         <Length>80</Length>
+	         <DataType>xsd:string</DataType>
+	       </Attribute>
+
+	     </AttributeGroup>
+
+	</AggregationAttributes>
+
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+
+	     <AggregationGroup>
+	       <Name>AGGR_VAL_GROUP</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP">
+	         <Label language="EN">aggregation value group</Label>
+  	       </GuiLabels>
+	       <AttributeGroupReference>	       
+	         <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	       </AttributeGroupReference>
+
+	       <AttributeGroup>	       
+		 <Name>ERROR</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_ERROR">
+		   <Label language="EN">error</Label>
+	  	 </GuiLabels>
+	  		   
+	         <AttributeReference>
+	  	   <ReferenceName>NDLV</ReferenceName>
+	         </AttributeReference>	
+
+  	       </AttributeGroup>
+  		   
+	       <AttributeGroup>	       
+		 <Name>SCHEDULED</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_SCHEDULED">
+		   <Label language="EN">scheduled</Label>
+	  	 </GuiLabels>
+
+	         <AttributeReference>
+	  	   <ReferenceName>WAIT</ReferenceName>
+	         </AttributeReference>	
+	         
+	         <AttributeReference>
+	  	   <ReferenceName>TBDL</ReferenceName>
+	         </AttributeReference>	
+	         
+	         <AttributeReference>
+	  	   <ReferenceName>DLNG</ReferenceName>
+	         </AttributeReference>	
+	         
+	         <AttributeReference>
+	  	   <ReferenceName>HOLD</ReferenceName>
+	         </AttributeReference>	
+	         
+  	       </AttributeGroup>
+
+	       <AttributeGroup>	       
+		 <Name>SUCCESSFUL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_SUCCESSFUL">
+		   <Label language="EN">successful</Label>
+	  	 </GuiLabels>
+
+	         <AttributeReference>
+	  	   <ReferenceName>DLVD</ReferenceName>
+	         </AttributeReference>	
+	         
+  	       </AttributeGroup>
+
+	       <AttributeGroup>	       
+		 <Name>CANCEL</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_GROUP_CANCEL">
+		   <Label language="EN">cancel</Label>
+	  	 </GuiLabels>
+
+	         <AttributeReference>
+	  	   <ReferenceName>FAIL</ReferenceName>
+	         </AttributeReference>	
+	 
+  	       </AttributeGroup>
+
+	       <Attributes>	       
+		 <Name>AGGR_VAL_ATTR</Name>
+		 <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR">
+		   <Label language="EN">aggregation value attributes</Label>
+	  	 </GuiLabels>
+	  	 
+	  	 <Attribute>
+		   <Name>TBDL</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_TBDL">
+		     <Label language="EN">to be delivered</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>true</HoldKey>
+	  	   <AttributeValue>TBDL</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>CANCEL</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>RESTART</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>
+	  		     
+	  	 <Attribute>
+		   <Name>DLNG</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_DLNG">
+		     <Label language="EN">delivering</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>true</HoldKey>
+	  	   <AttributeValue>DLNG</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+	  	 
+	  	 <Attribute>
+		   <Name>DLVD</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_DLVD">
+		     <Label language="EN">delivered</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>DLVD</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+	  	 
+	  	 <Attribute>
+		   <Name>NDLV</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_NDLV">
+		     <Label language="EN">not delivered</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>true</HoldKey>
+	  	   <AttributeValue>NDLV</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>CANCEL</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>RESTART</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+	  	 
+	  	 <Attribute>
+		   <Name>FAIL</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_FAIL">
+		     <Label language="EN">failed</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>false</HoldKey>
+	  	   <AttributeValue>FAIL</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+	  	 
+	  	 <Attribute>
+		   <Name>WAIT</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_WAIT">
+		     <Label language="EN">waiting</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>true</HoldKey>
+	  	   <AttributeValue>WAIT</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>CANCEL</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>RESTART</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+
+	  	 <Attribute>
+		   <Name>HOLD</Name>
+		   <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_VAL_ATTR_HOLD">
+		     <Label language="EN">holding</Label>
+	  	   </GuiLabels>
+	           <Length>0</Length>
+	           <DataType>xsd:string</DataType>
+	           <HoldKey>true</HoldKey>
+	  	   <AttributeValue>HOLD</AttributeValue>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>MONITOR</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>CANCEL</ReferenceName>
+	           </AggregationActionReference>
+
+	           <AggregationActionReference>
+	  	     <ReferenceName>RESTART</ReferenceName>
+	           </AggregationActionReference>
+	  	 </Attribute>	  	 
+	  	 
+	       </Attributes>	       
+
+	       <AggregationActions>
+               <Name>AGGR_ACT</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ACT">
+                 <Label language="EN">aggregation actions</Label>
+               </GuiLabels>
+	  
+	            <Attribute>
+	              <Name>MONITOR</Name>
+  	              <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ACT_MONITOR">
+	               <Label language="EN">monitor</Label>
+	              </GuiLabels>
+	            </Attribute>
+            
+	            <Attribute>
+	              <Name>CANCEL</Name>
+  	              <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_ACT_CANCEL">
+	               <Label language="EN">cancel</Label>
+	              </GuiLabels>
+	            </Attribute>
+
+	            <Attribute>
+	              <Name>RESTART</Name>
+  	              <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AAGGR_ACT_RESTART">
+	               <Label language="EN">restart</Label>
+	              </GuiLabels>
+	            </Attribute>
+
+	       </AggregationActions>
+
+	     </AggregationGroup>
+            
+	</AggregationValues>
+
+	<AggregationPeriods>
+        <Name>AGGR_PER</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER">
+          <Label language="EN">aggregation periods</Label>
+        </GuiLabels>
+	  
+        <Attributes>	       
+	  <Name>AGGR_PER_ATTR</Name>
+	  <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_ATTR">
+	    <Label language="EN">aggregation period attributes</Label>
+  	  </GuiLabels>
+
+	     <Attribute>
+	       <Name>HOURLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_HOURLY">
+	         <Label language="EN">hourly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc12</AttributeValue>
+	     </Attribute>
+
+	     <Attribute>
+	       <Name>DAILY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_DAILY">
+	         <Label language="EN">daily</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc7</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>WEEKLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_WEEKLY">
+	         <Label language="EN">weekly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc4</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>MONTHLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_MONTHLY">
+	         <Label language="EN">monthly</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc12</AttributeValue>
+	     </Attribute>
+	     
+	     <Attribute>
+	       <Name>ANNUALLY</Name>
+	       <GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_profile.AGGR_PER_ANNUALLY">
+	         <Label language="EN">annually</Label>
+	       </GuiLabels>
+	       <Length>1</Length>
+	       <DataType>xsd:string</DataType>
+	       <AttributeValue>i1%maxc9999</AttributeValue>
+	     </Attribute>
+	     
+        </Attributes>	       
+
+	</AggregationPeriods>
+
+</Profile>

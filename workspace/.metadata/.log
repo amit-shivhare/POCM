@@ -1,0 +1,2125 @@
+!SESSION 2019-06-04 17:15:11.984 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-04 17:15:15.093
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-04 17:15:15.094
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-04 17:15:32.090
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-04 17:15:35.973
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-04 17:15:37.127
+!MESSAGE NLS missing message: Businessworkflow in: com.sap.glx.ide.i18n.messages
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-04 17:15:40.377
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-04 17:15:43.590
+!MESSAGE JVM Version Check succeeded.
+!SESSION 2019-06-06 12:59:36.035 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-06 12:59:38.507
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-06 12:59:38.507
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-06 12:59:50.585
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-06 12:59:54.911
+!MESSAGE NLS missing message: Businessworkflow in: com.sap.glx.ide.i18n.messages
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-06 12:59:55.639
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-06 13:00:00.541
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-06 13:00:03.591
+!MESSAGE JVM Version Check succeeded.
+!SESSION 2019-06-06 13:19:05.156 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\kumar-81\Documents\Metller  Documents\SAP PI\Peter Java\workplace\jarunek-1\workspace
+
+!ENTRY org.eclipse.ui 2 0 2019-06-06 13:19:07.084
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-06 13:19:07.084
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-06 13:19:18.950
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-06 13:19:22.779
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-06 13:19:23.961
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+!SESSION 2019-06-06 13:37:20.005 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-06 13:37:22.406
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-06 13:37:22.406
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-06 13:37:35.030
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-06 13:37:39.743
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-06 13:37:41.629
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY org.eclipse.ui.workbench 2 0 2019-06-06 13:52:08.382
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2019-06-06 13:52:08.382
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@40855c),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@cfca71,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1b274b1)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@19dd97b)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@40855c),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@cfca71,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1b274b1)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@19dd97b)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-06 13:53:13.314
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY org.eclipse.wst.server.core 4 0 2019-06-06 14:26:02.302
+!MESSAGE Error responding to resource change
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.internal.Server.isModuleDeployed(Server.java:783)
+	at org.eclipse.wst.server.core.internal.Server.handleModuleProjectChange(Server.java:754)
+	at org.eclipse.wst.server.core.internal.ResourceManager.publishHandleProjectChange(ResourceManager.java:977)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener$1.visit(ResourceManager.java:122)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener.resourceChanged(ResourceManager.java:116)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-06-06 15:06:32.861 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-06 15:06:35.318
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-06 15:06:35.318
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-06 15:06:48.662
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-06 15:06:52.778
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-06 15:06:54.817
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-06 15:07:18.829
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+!SESSION 2019-06-11 11:02:34.710 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-06-11 11:02:36.773
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2019-06-11 11:02:37.529
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-11 11:02:37.529
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.wst.server.core 4 0 2019-06-11 11:02:52.331
+!MESSAGE Error responding to resource change
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.internal.Server.isModuleDeployed(Server.java:783)
+	at org.eclipse.wst.server.core.internal.Server.handleModuleProjectChange(Server.java:754)
+	at org.eclipse.wst.server.core.internal.ResourceManager.publishHandleProjectChange(ResourceManager.java:977)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener$1.visit(ResourceManager.java:122)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener.resourceChanged(ResourceManager.java:116)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-11 11:02:52.363
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-11 11:02:58.003
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-11 11:03:00.295
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY org.eclipse.equinox.security 1 0 2019-06-11 11:04:31.726
+!MESSAGE New keyring password generated. 
+
+!ENTRY com.sap.ide.dii05.lib 2 0 2019-06-11 11:04:32.846
+!MESSAGE Version 0000000650 of development configuration PO-AM_dev [0] (version:0000000453) is now available
+
+!ENTRY see_stack 4 0 2019-06-11 11:07:20.086
+!MESSAGE VFS accessed without DevConf Lock
+!STACK 0
+java.lang.Exception
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$Logger.logViolation(VfsManagerProvider.java:118)
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$1.checkDevConfLock(VfsManagerProvider.java:99)
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$1.checkState(VfsManagerProvider.java:94)
+	at com.tssap.dtr.client.lib.vfs.impl.VersionedFileSystemManager.checkState(VersionedFileSystemManager.java:536)
+	at com.tssap.dtr.client.lib.vfs.impl.VfsActivity.checkState(VfsActivity.java:868)
+	at com.tssap.dtr.client.lib.vfs.impl.VfsActivity.getObjectID(VfsActivity.java:3137)
+	at com.sap.ide.dii05.lib.internal.type.ActivityProvider.<init>(ActivityProvider.java:34)
+	at com.sap.ide.dii05.ui.internal.type.wizard.SelectActivityPage.getChangeListProvider(SelectActivityPage.java:202)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewWizard.getChangeListProvider(DcNewWizard.java:574)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewWizard.reset(DcNewWizard.java:193)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewPage.createConnectedWizard(DcNewPage.java:400)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewPage.setVisible(DcNewPage.java:294)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1171)
+	at org.eclipse.jface.wizard.WizardDialog.access$2(WizardDialog.java:1149)
+	at org.eclipse.jface.wizard.WizardDialog$5.run(WizardDialog.java:1138)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1136)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:830)
+	at com.sap.ide.dii05.ui.internal.type.wizard.WizardUiUtil$1.nextPressed(WizardUiUtil.java:60)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:369)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.sap.ide.dii05.ui.internal.type.wizard.WizardUiUtil.openDialog(WizardUiUtil.java:80)
+	at com.sap.ide.dii05.ui.internal.actions.sc.DcNewAction.create(DcNewAction.java:61)
+	at com.sap.ide.dii05.ui.internal.actions.sc.DcNewAction.execute(DcNewAction.java:35)
+	at com.sap.ide.dii05.ui.internal.actions.AbstractSelectionAction.doRun(AbstractSelectionAction.java:84)
+	at com.sap.ide.dii05.ui.internal.actions.DiiAction.run(DiiAction.java:78)
+	at com.sap.ide.dii05.ui.internal.views.browser.BaseDcsView$AddDcAction.run(BaseDcsView.java:574)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 0 2019-06-11 11:13:07.617
+!MESSAGE While loading class "org.eclipse.pde.internal.core.ICoreConstants", thread "Thread[ModalContext,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-36,5,main]" to finish starting bundle "org.eclipse.pde.core_3.5.101.v20100104 [1337]". To avoid deadlock, thread "Thread[ModalContext,6,main]" is proceeding but "org.eclipse.pde.internal.core.ICoreConstants" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.pde.core_3.5.101.v20100104.jar" by thread "Worker-36".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:40)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:123)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:65)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:86)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:63)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:51)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1547)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1381)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1357)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1958)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at com.sap.ide.dii05.util.internal.lock.DiiConsistencyServiceImpl.executeConsistentWorkspaceRunnable(DiiConsistencyServiceImpl.java:90)
+	at com.sap.ide.dii05.util.internal.lock.DiiConsistencyServiceImpl.executeConsistentWorkspaceRunnable(DiiConsistencyServiceImpl.java:52)
+	at com.sap.ide.dii08.internal.service.InternalDiiModelEditService.commitChanges(InternalDiiModelEditService.java:332)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.setEjbComponentProperties(CompUtil.java:889)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.setComponentProperties(CompUtil.java:676)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.finishCompWizard(CompUtil.java:652)
+	at com.sap.ide.j2ee.servicelayer.util.CompUtil.finishCompWizard(CompUtil.java:267)
+	at com.sap.ide.j2ee.servicelayer.creation.project.internal.AbstractJ2eeProjectCreation.createNewProject(AbstractJ2eeProjectCreation.java:167)
+	at com.sap.ide.j2ee.servicelayer.util.J2eeProjectManager.createDCEjbModule(J2eeProjectManager.java:1399)
+	at com.sap.ide.j2ee.nw.integration.ui.wizard.dc.EjbModuleProject$1.run(EjbModuleProject.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 43 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:40)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:123)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:65)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:86)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:63)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:51)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1547)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1381)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1357)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1958)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at com.sap.ide.dii05.util.internal.lock.DiiConsistencyServiceImpl.executeConsistentWorkspaceRunnable(DiiConsistencyServiceImpl.java:90)
+	at com.sap.ide.dii05.util.internal.lock.DiiConsistencyServiceImpl.executeConsistentWorkspaceRunnable(DiiConsistencyServiceImpl.java:52)
+	at com.sap.ide.dii08.internal.service.InternalDiiModelEditService.commitChanges(InternalDiiModelEditService.java:332)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.setEjbComponentProperties(CompUtil.java:889)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.setComponentProperties(CompUtil.java:676)
+	at com.sap.ide.j2ee.nw.integration.dc.CompUtil.finishCompWizard(CompUtil.java:652)
+	at com.sap.ide.j2ee.servicelayer.util.CompUtil.finishCompWizard(CompUtil.java:267)
+	at com.sap.ide.j2ee.servicelayer.creation.project.internal.AbstractJ2eeProjectCreation.createNewProject(AbstractJ2eeProjectCreation.java:167)
+	at com.sap.ide.j2ee.servicelayer.util.J2eeProjectManager.createDCEjbModule(J2eeProjectManager.java:1399)
+	at com.sap.ide.j2ee.nw.integration.ui.wizard.dc.EjbModuleProject$1.run(EjbModuleProject.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2019-06-12 14:10:42.587 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-12 14:10:45.339
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-12 14:10:45.339
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2019-06-12 14:11:00.926
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-12 14:11:01.412
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-12 14:11:03.089
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-12 14:11:13.982
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 14:11:23.773
+!MESSAGE NLS missing message: Businessworkflow in: com.sap.glx.ide.i18n.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 14:11:23.795
+!MESSAGE NLS unused message: TaskWizardPage5_17 in: com.sap.glx.ide.task.i18n.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 14:11:23.799
+!MESSAGE NLS missing message: TaskWizardPage4_17 in: com.sap.glx.ide.task.i18n.messages
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-12 14:11:23.887
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:36.490
+!MESSAGE Exception caught during web service invocation for instance ch00vpi3s 0      [Error: com.sap.managementconsole.controller  Thread[Worker-6,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vpi3s:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.j2EEGetVMGCHistory2(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getJ2EEVMGCHistory2(JaxWsDataLoader.java:1063)
+	at com.sap.managementconsole.datamodel.data.leafs.J2EEGCHistory.updateChildren(J2EEGCHistory.java:63)
+	at com.sap.ide.mc.monitor.datamodel.monitors.BaseTreeNodeMonitor.refresh(BaseTreeNodeMonitor.java:47)
+	at com.sap.ide.mc.monitor.datamodel.monitors.DataCollectorImpl.update(DataCollectorImpl.java:75)
+	at com.sap.ide.mc.monitor.datamodel.node.JEEMonitorNode.updateChildren(JEEMonitorNode.java:114)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.operations.CompositeOperation.execute(CompositeOperation.java:33)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vpi3s:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 15 more
+Caused by: java.io.IOException: Unable to connect to ch00vpi3s:50013 - connect timed out
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 19 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 25 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:36.634
+!MESSAGE Exception caught during web service invocation for instance ch00vsi3s 0      [Error: com.sap.managementconsole.controller  Thread[Worker-7,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vsi3s:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.j2EEGetVMGCHistory2(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getJ2EEVMGCHistory2(JaxWsDataLoader.java:1063)
+	at com.sap.managementconsole.datamodel.data.leafs.J2EEGCHistory.updateChildren(J2EEGCHistory.java:63)
+	at com.sap.ide.mc.monitor.datamodel.monitors.BaseTreeNodeMonitor.refresh(BaseTreeNodeMonitor.java:47)
+	at com.sap.ide.mc.monitor.datamodel.monitors.DataCollectorImpl.update(DataCollectorImpl.java:75)
+	at com.sap.ide.mc.monitor.datamodel.node.JEEMonitorNode.updateChildren(JEEMonitorNode.java:114)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.operations.CompositeOperation.execute(CompositeOperation.java:33)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vsi3s:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 15 more
+Caused by: java.io.IOException: Unable to connect to ch00vsi3s:50013 - connect timed out
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 19 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 25 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:37.058
+!MESSAGE Exception caught during web service invocation for instance ch00voi3s.eu.mt.mtnet 0      [Error: com.sap.managementconsole.controller  Thread[Worker-8,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s.eu.mt.mtnet:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getAlertTree(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getCCMSTree(JaxWsDataLoader.java:469)
+	at com.sap.managementconsole.datamodel.data.leafs.OpenAlerts.updateChildren(OpenAlerts.java:75)
+	at com.sap.ide.mc.monitor.datamodel.monitors.BaseTreeNodeMonitor.refresh(BaseTreeNodeMonitor.java:47)
+	at com.sap.ide.mc.monitor.datamodel.monitors.DataCollectorImpl.update(DataCollectorImpl.java:75)
+	at com.sap.ide.mc.monitor.datamodel.node.JEEMonitorNode.updateChildren(JEEMonitorNode.java:114)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.operations.CompositeOperation.execute(CompositeOperation.java:33)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s.eu.mt.mtnet:50013 - connect timed out).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 15 more
+Caused by: java.io.IOException: Unable to connect to ch00voi3s.eu.mt.mtnet:50013 - connect timed out
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 19 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 25 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:40.281
+!MESSAGE Exception caught during web service invocation for instance Host<ch00vsi3s>, InstanceNumber<1>      [Error: com.sap.managementconsole.controller  Thread[RefreshChildrenThread,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vsi3s:50113 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getProcessList(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getProcessList(JaxWsDataLoader.java:267)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.listOSProcesses(SAPInstanceImpl.java:352)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.retrieveProcesses(SAPInstanceImpl.java:426)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.refreshChildren(SAPInstanceImpl.java:533)
+	at com.sap.enginemanagement.impl.RefreshChildrenThread.run(RefreshChildrenThread.java:44)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vsi3s:50113 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 9 more
+Caused by: java.io.IOException: Unable to connect to ch00vsi3s:50113 - Software caused connection abort: connect
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 13 more
+Caused by: java.net.SocketException: Software caused connection abort: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 19 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:40.325
+!MESSAGE Exception caught during web service invocation for instance ch00vsi5s 0      [Error: com.sap.managementconsole.controller  Thread[Worker-12,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Parameter set failure. The runtime was not able to set some parameter value. See nested exception for details.).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getAlertTree(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getCCMSTree(JaxWsDataLoader.java:469)
+	at com.sap.managementconsole.datamodel.data.leafs.OpenAlerts.updateChildren(OpenAlerts.java:75)
+	at com.sap.ide.mc.monitor.datamodel.monitors.BaseTreeNodeMonitor.refresh(BaseTreeNodeMonitor.java:47)
+	at com.sap.ide.mc.monitor.datamodel.monitors.DataCollectorImpl.update(DataCollectorImpl.java:75)
+	at com.sap.ide.mc.monitor.datamodel.node.JEEMonitorNode.updateChildren(JEEMonitorNode.java:114)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.operations.CompositeOperation.execute(CompositeOperation.java:33)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Parameter set failure. The runtime was not able to set some parameter value. See nested exception for details.).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.JAXWSUtil.deserializeInboundJAXB(JAXWSUtil.java:769)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.JAXWSUtil.deserializeResponseJAXB(JAXWSUtil.java:656)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.readSOAPResponseMessage(SOAPTransportBinding.java:296)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1432)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 15 more
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Parameter set failure. The runtime was not able to set some parameter value. See nested exception for details.
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.JAXWSUtil.deserializeParameterJAXB(JAXWSUtil.java:232)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.JAXWSUtil.deserializeInboundJAXB(JAXWSUtil.java:696)
+	... 21 more
+Caused by: java.lang.IllegalStateException: Can't overwrite cause
+	at java.lang.Throwable.initCause(Throwable.java:320)
+	at com.sap.engine.lib.xml.stream.XMLStreamExceptionExt.<init>(XMLStreamExceptionExt.java:49)
+	at com.sap.engine.lib.xml.stream.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:220)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.bridge(StAXStreamConnector.java:196)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:370)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:349)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.JAXWSUtil.deserializeParameterJAXB(JAXWSUtil.java:193)
+	... 22 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:47.123
+!MESSAGE Exception caught during web service invocation for instance Host<ch00voi3s>, InstanceNumber<1>      [Error: com.sap.managementconsole.controller  Thread[RefreshChildrenThread,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s:50113 - ch00voi3s).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getProcessList(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getProcessList(JaxWsDataLoader.java:267)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.listOSProcesses(SAPInstanceImpl.java:352)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.retrieveProcesses(SAPInstanceImpl.java:426)
+	at com.sap.enginemanagement.impl.SAPInstanceImpl.refreshChildren(SAPInstanceImpl.java:533)
+	at com.sap.enginemanagement.impl.RefreshChildrenThread.run(RefreshChildrenThread.java:44)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s:50113 - ch00voi3s).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 9 more
+Caused by: java.io.IOException: Unable to connect to ch00voi3s:50113 - ch00voi3s
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 13 more
+Caused by: java.net.UnknownHostException: ch00voi3s
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:195)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 19 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:12:56.448
+!MESSAGE Exception caught during web service invocation for instance ch00voi3s 1      [Error: com.sap.managementconsole.controller  Thread[Worker-5,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s:50113 - ch00voi3s).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getProcessList(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getProcessList(JaxWsDataLoader.java:267)
+	at com.sap.managementconsole.datamodel.data.leafs.ProcessListLeaf.loadNode(ProcessListLeaf.java:240)
+	at com.sap.managementconsole.datamodel.data.leafs.ProcessListLeaf.updateChildren(ProcessListLeaf.java:232)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00voi3s:50113 - ch00voi3s).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 12 more
+Caused by: java.io.IOException: Unable to connect to ch00voi3s:50113 - ch00voi3s
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 16 more
+Caused by: java.net.UnknownHostException: ch00voi3s
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:195)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 22 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:35:59.359
+!MESSAGE Exception caught during web service invocation for instance ch00vqi3s 1      [Error: com.sap.managementconsole.controller  Thread[Worker-3,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vqi3s:50113 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.getProcessList(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getProcessList(JaxWsDataLoader.java:267)
+	at com.sap.managementconsole.datamodel.data.leafs.ProcessListLeaf.loadNode(ProcessListLeaf.java:240)
+	at com.sap.managementconsole.datamodel.data.leafs.ProcessListLeaf.updateChildren(ProcessListLeaf.java:232)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vqi3s:50113 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 12 more
+Caused by: java.io.IOException: Unable to connect to ch00vqi3s:50113 - Software caused connection abort: connect
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 16 more
+Caused by: java.net.SocketException: Software caused connection abort: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 22 more
+
+!ENTRY com.sap.logging.adapter 4 0 2019-06-12 14:35:59.369
+!MESSAGE Exception caught during web service invocation for instance ch00vdi3s 0      [Error: com.sap.managementconsole.controller  Thread[Worker-13,5,main]]
+
+!STACK 0
+javax.xml.ws.WebServiceException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vdi3s:50013 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:174)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEISyncMethod(WSInvocationHandler.java:121)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invokeSEIMethod(WSInvocationHandler.java:84)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.invoke(WSInvocationHandler.java:65)
+	at com.sun.proxy.$Proxy24.j2EEGetVMHeapInfo(Unknown Source)
+	at com.sap.managementconsole.wsclient.jaxws.JaxWsDataLoader.getJ2EEVMHeapInfo(JaxWsDataLoader.java:1089)
+	at com.sap.managementconsole.datamodel.data.leafs.J2EEHeapMemory.updateChildren(J2EEHeapMemory.java:59)
+	at com.sap.ide.mc.monitor.datamodel.monitors.BaseTreeNodeMonitor.refresh(BaseTreeNodeMonitor.java:47)
+	at com.sap.ide.mc.monitor.datamodel.monitors.DataCollectorImpl.update(DataCollectorImpl.java:75)
+	at com.sap.ide.mc.monitor.datamodel.node.JEEMonitorNode.updateChildren(JEEMonitorNode.java:114)
+	at com.sap.managementconsole.controller.operations.UpdateOperation.execute(UpdateOperation.java:31)
+	at com.sap.managementconsole.controller.operations.CompositeOperation.execute(CompositeOperation.java:33)
+	at com.sap.managementconsole.controller.dataloader.DataLoader.executeAllQueuedOperations(DataLoader.java:564)
+	at com.sap.managementconsole.controller.dataloader.ThreadPoolDataLoader$DataLoaderTask.execute(ThreadPoolDataLoader.java:148)
+	at com.sap.managementconsole.controller.threadpool.ThreadPoolManager$1.run(ThreadPoolManager.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.sap.engine.services.webservices.espbase.client.bindings.exceptions.TransportBindingException: Connection IO Exception. Check nested exception for details. (Unable to connect to ch00vdi3s:50013 - Software caused connection abort: connect).
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:426)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call_SOAP(SOAPTransportBinding.java:1371)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.callWOLogging(SOAPTransportBinding.java:997)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.call(SOAPTransportBinding.java:951)
+	at com.sap.engine.services.webservices.espbase.client.jaxws.core.WSInvocationHandler.processTransportBindingCall(WSInvocationHandler.java:168)
+	... 15 more
+Caused by: java.io.IOException: Unable to connect to ch00vdi3s:50013 - Software caused connection abort: connect
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:704)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:696)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initStreamsFromSocket(HTTPSocket.java:658)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.initializeStreams(HTTPSocket.java:553)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.getOutputStream(HTTPSocket.java:504)
+	at com.sap.engine.services.webservices.espbase.client.bindings.ClientHTTPTransport.getRequestStream(ClientHTTPTransport.java:202)
+	at com.sap.engine.services.webservices.espbase.client.bindings.impl.SOAPTransportBinding.outputSOAPMessage(SOAPTransportBinding.java:382)
+	... 19 more
+Caused by: java.net.SocketException: Software caused connection abort: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sap.engine.services.webservices.jaxm.soap.HTTPSocket.createSocket(HTTPSocket.java:702)
+	... 25 more
+!SESSION 2019-06-12 15:18:06.295 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-12 15:18:08.815
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-12 15:18:08.815
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-12 15:18:26.785
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-12 15:18:29.416
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-12 15:18:30.582
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+!SESSION 2019-06-12 16:17:22.582 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-06-12 16:17:25.529
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-12 16:17:25.529
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-12 16:17:38.225
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-12 16:17:43.360
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-12 16:17:44.849
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 16:18:26.500
+!MESSAGE NLS missing message: Businessworkflow in: com.sap.glx.ide.i18n.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 16:18:26.518
+!MESSAGE NLS unused message: TaskWizardPage5_17 in: com.sap.glx.ide.task.i18n.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-12 16:18:26.520
+!MESSAGE NLS missing message: TaskWizardPage4_17 in: com.sap.glx.ide.task.i18n.messages
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-12 16:18:27.115
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY see_stack 4 0 2019-06-12 16:19:49.788
+!MESSAGE VFS accessed without DevConf Lock
+!STACK 0
+java.lang.Exception
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$Logger.logViolation(VfsManagerProvider.java:118)
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$1.checkDevConfLock(VfsManagerProvider.java:99)
+	at com.tssap.dtr.client.eclipse.vfs.VfsManagerProvider$1.checkState(VfsManagerProvider.java:94)
+	at com.tssap.dtr.client.lib.vfs.impl.VersionedFileSystemManager.checkState(VersionedFileSystemManager.java:536)
+	at com.tssap.dtr.client.lib.vfs.impl.VfsActivity.checkState(VfsActivity.java:868)
+	at com.tssap.dtr.client.lib.vfs.impl.VfsActivity.getObjectID(VfsActivity.java:3137)
+	at com.sap.ide.dii05.lib.internal.type.ActivityProvider.<init>(ActivityProvider.java:34)
+	at com.sap.ide.dii05.ui.internal.type.wizard.SelectActivityPage.getChangeListProvider(SelectActivityPage.java:202)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewWizard.getChangeListProvider(DcNewWizard.java:574)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewWizard.reset(DcNewWizard.java:193)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewPage.createConnectedWizard(DcNewPage.java:400)
+	at com.sap.ide.dii05.ui.internal.type.wizard.DcNewPage.setVisible(DcNewPage.java:294)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1171)
+	at org.eclipse.jface.wizard.WizardDialog.access$2(WizardDialog.java:1149)
+	at org.eclipse.jface.wizard.WizardDialog$5.run(WizardDialog.java:1138)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1136)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:830)
+	at com.sap.ide.dii05.ui.internal.type.wizard.WizardUiUtil$1.nextPressed(WizardUiUtil.java:60)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:369)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.sap.ide.dii05.ui.internal.type.wizard.WizardUiUtil.openDialog(WizardUiUtil.java:80)
+	at com.sap.ide.dii05.ui.internal.actions.sc.DcNewAction.create(DcNewAction.java:61)
+	at com.sap.ide.dii05.ui.internal.actions.sc.DcNewAction.execute(DcNewAction.java:35)
+	at com.sap.ide.dii05.ui.internal.actions.AbstractSelectionAction.doRun(AbstractSelectionAction.java:84)
+	at com.sap.ide.dii05.ui.internal.actions.DiiAction.run(DiiAction.java:78)
+	at com.sap.ide.dii05.ui.internal.views.browser.BaseDcsView$AddDcAction.run(BaseDcsView.java:574)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2019-06-16 14:54:23.389 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-06-16 14:54:25.513
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2019-06-16 14:54:26.185
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-16 14:54:26.185
+!MESSAGE Cannot bind to an undefined command: plug-in='com.sap.ide.esr.tools.core.ui', id='com.sap.ide.esr.tools.ui.runchecks'
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-16 14:54:40.169
+!MESSAGE Git mapped resource no longer exists in Eclipse: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kumar-81/Documents/Metller  Documents/SAP PI/Peter Java/workplace/jarunek-1/workspace.jdi/LocalDevelopment/MT_Adaptermodule/mt.com/com.equalize.xpi.af.modules.ejb/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logGoneMappedResource(GitProjectData.java:532)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:496)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:469)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:462)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:202)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:86)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:256)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:190)
+	at org.eclipse.egit.ui.internal.actions.RepositoryActionHandler.getProjectsInRepositoryOfSelectedResources(RepositoryActionHandler.java:172)
+	at org.eclipse.egit.ui.internal.actions.RemoveFromIndexActionHandler.isEnabled(RemoveFromIndexActionHandler.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.isEnabled(HandlerProxy.java:321)
+	at org.eclipse.core.commands.Command.isEnabled(Command.java:833)
+	at org.eclipse.core.commands.Command.setHandler(Command.java:996)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.updateCommand(HandlerAuthority.java:459)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.processChangedCommands(HandlerAuthority.java:638)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority.access$1(HandlerAuthority.java:610)
+	at org.eclipse.ui.internal.handlers.HandlerAuthority$1.propertyChange(HandlerAuthority.java:175)
+	at org.eclipse.ui.internal.services.EvaluationAuthority$1.run(EvaluationAuthority.java:252)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.fireServiceChange(EvaluationAuthority.java:246)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.endSourceChange(EvaluationAuthority.java:197)
+	at org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:135)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+	at org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.access$10(WorkbenchSourceProvider.java:1)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1615)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2086)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3943)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:230)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1189)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:327)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openInformation(MessageDialogWithToggle.java:178)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:58)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:57)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-06-16 14:54:41.740
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: plugins/com.sap.ext.libs.jee5_2.0.0.161101102603/DesigntimeAPIs/activation.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at com.sap.ide.j2ee.servicelayer.util.JeeClasspathContainerInitializer.getClasspathExtensionLibraries(JeeClasspathContainerInitializer.java:155)
+	at com.sap.ide.j2ee.servicelayer.util.JeeClasspathContainerInitializer.initialize(JeeClasspathContainerInitializer.java:45)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2169)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:34)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2019-06-16 14:54:41.743
+!MESSAGE Exception in Decorator. The 'Java Build Path Indicator' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2019-06-16 14:54:41.743
+!MESSAGE Path for IClasspathEntry must be absolute: plugins/com.sap.ext.libs.jee5_2.0.0.161101102603/DesigntimeAPIs/activation.jar
+!STACK 0
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: plugins/com.sap.ext.libs.jee5_2.0.0.161101102603/DesigntimeAPIs/activation.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4042)
+	at com.sap.ide.j2ee.servicelayer.util.JeeClasspathContainerInitializer.getClasspathExtensionLibraries(JeeClasspathContainerInitializer.java:155)
+	at com.sap.ide.j2ee.servicelayer.util.JeeClasspathContainerInitializer.initialize(JeeClasspathContainerInitializer.java:45)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2642)
+	at org.eclipse.jdt.internal.core.JavaModelManager$11.run(JavaModelManager.java:2548)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2588)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1808)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:2652)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2578)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2679)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1866)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2169)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:34)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-06-16 14:54:43.397
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 0
+org.eclipse.core.commands.ExecutionException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:110)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at org.eclipse.jst.j2ee.project.facet.JavaProjectMigrationOperation.execute(JavaProjectMigrationOperation.java:77)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:376)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:401)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:352)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:242)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:214)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:202)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.convertToUtilityProject(AbstractAction.java:78)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AbstractAction.toVirtualComponents(AbstractAction.java:63)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.addModuleToEAR(AddModulesToEarAction.java:71)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.AddModulesToEarAction.execute(AddModulesToEarAction.java:39)
+	at com.sap.ide.j2ee.nw.integration.dc.actions.ChangeDcDependency.execute(ChangeDcDependency.java:38)
+	at com.sap.ide.j2ee.nw.integration.dc.DCMetadataListener$DcMetadataJob.runInWorkspace(DCMetadataListener.java:268)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:360)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1171)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1107)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:321)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:336)
+	at org.eclipse.wst.common.componentcore.internal.operation.FacetProjectCreationOperation.execute(FacetProjectCreationOperation.java:83)
+	... 25 more
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-16 14:54:43.826
+!MESSAGE NLS missing message: Businessworkflow in: com.sap.glx.ide.i18n.messages
+
+!ENTRY com.tssap.util.ui 1 0 2019-06-16 14:54:47.908
+!MESSAGE Sap NetWeaver Developer Studio - Platform Feature Version: UNKNOWN
+
+!ENTRY com.sap.ide.jvm.check 1 0 2019-06-16 14:54:50.840
+!MESSAGE JVM Version Check succeeded.
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-16 14:55:01.263
+!MESSAGE NLS missing message: PreferenceConstants_0 in: com.sap.ide.xpi.ui.common.preferences.messages
+
+!ENTRY org.eclipse.wst.server.core 4 0 2019-06-16 14:55:44.081
+!MESSAGE Error responding to resource change
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.internal.Server.isModuleDeployed(Server.java:783)
+	at org.eclipse.wst.server.core.internal.Server.handleModuleProjectChange(Server.java:754)
+	at org.eclipse.wst.server.core.internal.ResourceManager.publishHandleProjectChange(ResourceManager.java:977)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener$1.visit(ResourceManager.java:122)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener.resourceChanged(ResourceManager.java:116)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-16 14:56:19.137
+!MESSAGE An internal error occurred during: "Retrieve list with deployed SDUs".
+!STACK 0
+java.lang.UnsupportedClassVersionError: com/sap/engine/services/dsr/server/DSRTransferable : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at com.sap.engine.services.rmi_p4.classload.DynamicClassLoader.findClass(DynamicClassLoader.java:252)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.sap.engine.services.rmi_p4.classload.DynamicClassLoader.loadClass(DynamicClassLoader.java:113)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at com.sap.engine.services.rmi_p4.P4ClassWrapper.getCarriedClass(P4ClassWrapper.java:261)
+	at com.sap.engine.services.rmi_p4.ContextObjectClassReceiver_Stub.getClassByName(ContextObjectClassReceiver_Stub.java:91)
+	at com.sap.engine.services.rmi_p4.Message.setContextObject(Message.java:611)
+	at com.sap.engine.services.rmi_p4.Message.loadContextObject(Message.java:479)
+	at com.sap.engine.services.rmi_p4.Message.parseMessage(Message.java:267)
+	at com.sap.engine.services.rmi_p4.Message.getByteArrayInputStream(Message.java:415)
+	at com.sap.engine.services.rmi_p4.Call.getResultStream(Call.java:291)
+	at com.sap.engine.services.security.remote.login.RemoteLoginContextHelper_Stub.login(RemoteLoginContextHelper_Stub.java:126)
+	at com.sap.engine.services.security.remote.login.RemoteLoginContext.login(RemoteLoginContext.java:175)
+	at com.sap.engine.services.jndi.implclient.LoginHelper.clientSideLogin(LoginHelper.java:78)
+	at com.sap.engine.services.jndi.InitialContextFactoryImpl.getInitialContext(InitialContextFactoryImpl.java:315)
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+	at javax.naming.InitialContext.init(InitialContext.java:223)
+	at javax.naming.InitialContext.<init>(InitialContext.java:197)
+	at com.sap.engine.services.dc.api.session.impl.SessionImpl.getContext(SessionImpl.java:215)
+	at com.sap.engine.services.dc.api.session.impl.SessionImpl.<init>(SessionImpl.java:150)
+	at com.sap.engine.services.dc.api.session.impl.SessionFactoryImpl.newSession(SessionFactoryImpl.java:36)
+	at com.sap.engine.services.dc.api.impl.ClientFactoryImpl.createClient(ClientFactoryImpl.java:127)
+	at com.sap.ide.eclipse.deployer.dc.DCClientImpl.<init>(DCClientImpl.java:100)
+	at com.sap.ide.eclipse.deployer.dc.DCClientFactoryImpl.createClient(DCClientFactoryImpl.java:120)
+	at com.sap.ide.eclipse.deployer.DeployerPlugin.getClient(DeployerPlugin.java:256)
+	at com.sap.ide.eclipse.deployer.ui.UIUtils.getClient(UIUtils.java:212)
+	at com.sap.ide.eclipse.deployer.ui.UIUtils.getClient(UIUtils.java:193)
+	at com.sap.ide.eclipse.j2ee.engine.deploy.view.repo.action.RepoAction$1.run(RepoAction.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-16 14:59:43.015
+!MESSAGE An internal error occurred during: "Retrieve list with deployed SDUs".
+!STACK 0
+java.lang.UnsupportedClassVersionError: com/sap/engine/services/dsr/server/DSRTransferable : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at com.sap.engine.services.rmi_p4.classload.DynamicClassLoader.findClass(DynamicClassLoader.java:252)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.sap.engine.services.rmi_p4.classload.DynamicClassLoader.loadClass(DynamicClassLoader.java:113)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at com.sap.engine.services.rmi_p4.P4ClassWrapper.getCarriedClass(P4ClassWrapper.java:261)
+	at com.sap.engine.services.rmi_p4.ContextObjectClassReceiver_Stub.getClassByName(ContextObjectClassReceiver_Stub.java:91)
+	at com.sap.engine.services.rmi_p4.Message.setContextObject(Message.java:611)
+	at com.sap.engine.services.rmi_p4.Message.loadContextObject(Message.java:479)
+	at com.sap.engine.services.rmi_p4.Message.parseMessage(Message.java:267)
+	at com.sap.engine.services.rmi_p4.Message.getByteArrayInputStream(Message.java:415)
+	at com.sap.engine.services.rmi_p4.Call.getResultStream(Call.java:291)
+	at com.sap.engine.services.security.remote.login.RemoteLoginContextHelper_Stub.login(RemoteLoginContextHelper_Stub.java:126)
+	at com.sap.engine.services.security.remote.login.RemoteLoginContext.login(RemoteLoginContext.java:175)
+	at com.sap.engine.services.jndi.implclient.LoginHelper.clientSideLogin(LoginHelper.java:78)
+	at com.sap.engine.services.jndi.InitialContextFactoryImpl.getInitialContext(InitialContextFactoryImpl.java:315)
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:667)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:288)
+	at javax.naming.InitialContext.init(InitialContext.java:223)
+	at javax.naming.InitialContext.<init>(InitialContext.java:197)
+	at com.sap.engine.services.dc.api.session.impl.SessionImpl.getContext(SessionImpl.java:215)
+	at com.sap.engine.services.dc.api.session.impl.SessionImpl.<init>(SessionImpl.java:150)
+	at com.sap.engine.services.dc.api.session.impl.SessionFactoryImpl.newSession(SessionFactoryImpl.java:36)
+	at com.sap.engine.services.dc.api.impl.ClientFactoryImpl.createClient(ClientFactoryImpl.java:127)
+	at com.sap.ide.eclipse.deployer.dc.DCClientImpl.<init>(DCClientImpl.java:100)
+	at com.sap.ide.eclipse.deployer.dc.DCClientFactoryImpl.createClient(DCClientFactoryImpl.java:120)
+	at com.sap.ide.eclipse.deployer.DeployerPlugin.getClient(DeployerPlugin.java:256)
+	at com.sap.ide.eclipse.deployer.ui.UIUtils.getClient(UIUtils.java:212)
+	at com.sap.ide.eclipse.deployer.ui.UIUtils.getClient(UIUtils.java:193)
+	at com.sap.ide.eclipse.j2ee.engine.deploy.view.repo.action.RepoAction$1.run(RepoAction.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

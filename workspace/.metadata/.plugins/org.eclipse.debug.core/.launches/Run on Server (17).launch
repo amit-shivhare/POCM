@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.debug.framework.commonLaunchConfiguration">
+<booleanAttribute key="com.sap.ide.debug.framework.BuildDeploy" value="true"/>
+<stringAttribute key="com.sap.ide.debug.framework.SapSystem" value="SI3"/>
+<stringAttribute key="com.sap.ide.debug.framework.launchString" value="http://ch00ssi3.eu.mt.mtnet:50000/DataManager/"/>
+<stringAttribute key="com.sap.ide.debug.framework.moduleArtifact" value=""/>
+<stringAttribute key="com.sap.ide.debug.framework.moduleID" value="org.eclipse.jst.jee.server:DataManager"/>
+<stringAttribute key="generated_conf_id_attr" value="run_debug_on_srv_SAP Server1469232241688"/>
+</launchConfiguration>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FileAdapModuleEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="itextpdf-5.5.9.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/jessen-1/Documents/Projects Release 16.09/EU-4/B2B add on/itext-5.5.9/itextpdf-5.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="itext-pdfa-5.5.9.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/jessen-1/Documents/Projects Release 16.09/EU-4/B2B add on/itext-5.5.9/itext-pdfa-5.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="itext-xtra-5.5.9.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/jessen-1/Documents/Projects Release 16.09/EU-4/B2B add on/itext-5.5.9/itext-xtra-5.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlworker-5.5.9.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/jessen-1/Documents/Projects Release 16.09/EU-4/B2B add on/itext-5.5.9/xmlworker-5.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FileAdapModuleArc.jar" deploy-path="/" handle="module:/resource/FileAdapModuleArc/FileAdapModuleArc">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FileAdapModuleEAR.ear" deploy-path="/" handle="module:/resource/FileAdapModuleEAR/FileAdapModuleEAR">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

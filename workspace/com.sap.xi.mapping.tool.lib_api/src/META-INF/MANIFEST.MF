@@ -1,0 +1,1136 @@
+Manifest-Version: 1.0
+Edition: 710SP05
+Created-By: 1.5.0_11-b03 (Sun Microsystems Inc.)
+Ant-Version: Apache Ant 1.6.5
+Perforce-Server: perforce3710.wdf.sap.corp:3710
+Changelist: 17950
+Implementation-Vendor-Id: sap.com
+Implementation-Version: 7.1005.20080222140515.0000
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$3.class
+SHA1-Digest: 1lJWeJpOt4uERMeMjBmK5VU3mqU=
+
+Name: com/sap/aii/mappingtool/flib7/TextFunctions.class
+SHA1-Digest: VekvxCpFH7kgmhR2qpoVqvLE4Cs=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/rb_tblMessages_fr.properties
+SHA1-Digest: VcVmY+wSbZ8zzy6a1EmfnmmZhbE=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions.properties
+SHA1-Digest: 3+tOmN1Gg8/mslSmZx6w8QJh8tY=
+
+Name: com/sap/aii/mappingtool/flib7/NodeFunctions$PairsComparator.clas
+ s
+SHA1-Digest: qHhdsSvKhzwYdy5dAvBvN9jfyAE=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AStructureNode.class
+SHA1-Digest: tLuXYb/T8wmfF7Tjg61l8RvP8Po=
+
+Name: com/sap/aii/mappingtool/flib7/ValueMapping$IFIdentifierImpl.clas
+ s
+SHA1-Digest: Me/A/+zO9ktpjtTVpC/hWHZfcKQ=
+
+Name: com/sap/aii/mappingtool/tf3/rt/Context.class
+SHA1-Digest: bQaZMbTW/1huKsr45YuOqiXjyTk=
+
+Name: com/sap/aii/mappingtool/tf7/rt/Context.class
+SHA1-Digest: VANrwJH5hsu1pTxFyauJWxnAGIU=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_zh_TW.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf3/Transformer$StreamHandler.class
+SHA1-Digest: 8LO//UhIJkDnQG6eYcMLiVLw0wo=
+
+Name: origin
+project: xpi.ib
+gendir: D:/depot/_build/tc/xpi.ib/NW07_0~2/gen/dbg/java/sub/_ib_mt_sig
+ n/e/05
+envtype: jar
+environment: com.sap.xi.mapping.tool.lib_api
+release: NW07_05_REL
+subproject: _ib_mt_sign
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue.class
+SHA1-Digest: pbD/tTf/6gFD37rKtj3GdT0UWH4=
+
+Name: com/sap/aii/mappingtool/flib7/SplitByValue$SplitByChange.class
+SHA1-Digest: d0wMLvsQLLOA679VbO71UI8at6U=
+
+Name: com/sap/aii/mappingtool/flib3/NodeFunctions$PairsComparator.clas
+ s
+SHA1-Digest: U69Hr9nOhATx3wgfdoq1sYmrjmw=
+
+Name: com/sap/aii/mappingtool/flib3/IfWithoutElse.class
+SHA1-Digest: 6tlny0mrewq5n4guU3kPP3M9tAY=
+
+Name: com/sap/aii/mappingtool/tf3/ResultQueue.class
+SHA1-Digest: QDQXPhOzFwvuHDbFjglf/ThZrXc=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_ja.properties
+SHA1-Digest: uYMgSd2WQKSHM6xsix2H/udHuO0=
+
+Name: com/sap/aii/mappingtool/tf7/OutputStreamWrapper.class
+SHA1-Digest: h9HJJa7EHpbiGpTz65AGjAUJ3ng=
+
+Name: com/sap/aii/mappingtool/tf3/rt/AStructureNode.class
+SHA1-Digest: mSEKUWepsLJHGWFWgoTmdMgUAac=
+
+Name: com/sap/aii/mappingtool/tf3/MMController.class
+SHA1-Digest: PAo1N2P4JLnayWKPr5OgdWaej8M=
+
+Name: com/sap/aii/mappingtool/tf/ValueStorage.class
+SHA1-Digest: 0o4qw6eG30E77Ermu9t69D7kH4I=
+
+Name: com/sap/aii/mappingtool/tf/Queue.class
+SHA1-Digest: 7HWgxBfQuh1wQ33v/gJzu7FTfzY=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_zh_TW.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/flib3/Bool.class
+SHA1-Digest: 4rvFGM0DVna5Z028/j3H9L1oJEQ=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/IParserControl.class
+SHA1-Digest: Khfu7XpNOfxFDby3+lxfNMW9E58=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MTXml.class
+SHA1-Digest: 0xkPYLHSQCQBE4DDNl2ZAf3Omoc=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_ja.properties
+SHA1-Digest: GJ4CaFMKVm6txcM2D346GA5f/Ek=
+
+Name: com/sap/aii/mappingtool/flib3/SplitByValue$SplitByChange.class
+SHA1-Digest: pD7IleBA+0Ym73sC4vl8jga0P/Q=
+
+Name: com/sap/aii/mappingtool/tf7/ValueListener.class
+SHA1-Digest: wb1ZEvLYNMl5hqZqpXIbLgu7GME=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_zh_CN.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_zh_TW.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf/rt/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf7/Transformer$StreamHandler.class
+SHA1-Digest: lfegglgSN8RK0Pvxfh7Fkczb2N8=
+
+Name: com/sap/aii/mappingtool/flib7/Constant.class
+SHA1-Digest: BhA/veGwYKILmNMBt41qDd5lvOg=
+
+Name: com/sap/aii/mappingtool/tf/rt/NodeArgWrapper.class
+SHA1-Digest: YvY4DeRochVnymYpicYlx0cCHPU=
+
+Name: com/sap/aii/mappingtool/tf7/rt/VariableStrucNode.class
+SHA1-Digest: GIuDgDf6CE/y6GuFdVZUaqVnQvQ=
+
+Name: com/sap/aii/mappingtool/tf3/ValueStorage$Request.class
+SHA1-Digest: GJtn8fQ9N3KQy85FT1kGiEwmva4=
+
+Name: com/sap/aii/mappingtool/tf3/SortingXMLHandler.class
+SHA1-Digest: hl+8U1nqnemu5gL3B6fuVCVV4Pk=
+
+Name: com/sap/aii/mappingtool/tf7/rt/VarNodeWrapper.class
+SHA1-Digest: P+LMbazZHaxMKHfnDXYp926nhak=
+
+Name: sap-component
+component: com.sap.xi.mapping.tool.lib_api
+flavors: Generic
+type: Module
+sub-type: LibraryModule
+api: true
+apiforwarding: true
+subproject: _ib_mt_sign
+project: xpi.ib
+provider: sap.com
+
+Name: com/sap/aii/mappingtool/tf3/PWriter.class
+SHA1-Digest: iwCVQr0+Yb+btpCAv6v6hpZZ/Kw=
+
+Name: com/sap/aii/mappingtool/flib7/RfcRequestBuilder.class
+SHA1-Digest: WJjElwxoLTWCkuLJypEUW3KD0Jk=
+
+Name: com/sap/aii/mappingtool/flib7/CurDate.class
+SHA1-Digest: gHKuNxzXsAUh4STPCuesIsGbXkE=
+
+Name: com/sap/aii/mappingtool/tf7/ParserBrakes.class
+SHA1-Digest: ZGdifyHCWKI20mzdxa7L5LaZ944=
+
+Name: com/sap/aii/mappingtool/flib7/RfcLookup.class
+SHA1-Digest: q5Dv6ejY49dXAMAmkEREwGSZgEI=
+
+Name: com/sap/aii/mappingtool/tf3/rt/IResIterator.class
+SHA1-Digest: WNkysO+suQzes7+qWrwVTuammEY=
+
+Name: com/sap/aii/mappingtool/tf/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf7/Queue.class
+SHA1-Digest: YJ2PgF6ioBCgcyyJy/EsJIONerU=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MTIterator.class
+SHA1-Digest: lqjkJ/lY6UbhBaB7djJTMZvClD4=
+
+Name: com/sap/aii/mappingtool/flib7/RfcTransformationOutput.class
+SHA1-Digest: AM0CqJDpKj4gvmFSDQbrf/ULVq4=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all.properties
+SHA1-Digest: P9E5HnHNYYjlPFOWIXaJIQOO3WI=
+
+Name: com/sap/aii/mappingtool/flib7/ValueMapping.class
+SHA1-Digest: GqYtrOsTc4zAyqkjgZw6AAf0nA8=
+
+Name: com/sap/aii/mappingtool/tf3/ValueStorage.class
+SHA1-Digest: 3A6UjceZqsWxl6vF02Q+0vgp2BE=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/XMLTableDefinition.class
+SHA1-Digest: tDkvID4wYRevM1aUjPQNVGMccd8=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_zh_CN.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/flib7/SplitByValue$IDelegate.class
+SHA1-Digest: J+vRIrHnvhkS2Go1mnnygAKocig=
+
+Name: com/sap/aii/mappingtool/tf7/IllegalInstanceException.class
+SHA1-Digest: w/fNC8dUpaPbI5ep+qG4Ge5UGy0=
+
+Name: com/sap/aii/mappingtool/flib7/SplitByValue$SplitByEach.class
+SHA1-Digest: PBGiqwIWR0aA75K3v91m05IdkZg=
+
+Name: com/sap/aii/mappingtool/tf3/ContainerUtils.class
+SHA1-Digest: gtiId9ufM/nkRim6B0DKlVmKg7c=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/XMLTable$Record.class
+SHA1-Digest: 8zRoXynkKwkaIGFO1PiURMzVu9I=
+
+Name: com/sap/aii/mappingtool/tf7/rt/StructureNode.class
+SHA1-Digest: 3xHy7EehcnKDSSLjWQR876Rqazw=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/DuplicateKeyException.class
+SHA1-Digest: cQ1lsFqX7/Ij2yJ14JRK//uK3H0=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_iw.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf/rt/xparser/XParser.class
+SHA1-Digest: w7fVB2IPImPs8QlcGnxfF40dcYM=
+
+Name: com/sap/aii/mappingtool/flib7/RfcPayload$StopParsingException.cl
+ ass
+SHA1-Digest: ARSyL6PycarEHrpg+yifrlV+aaw=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MethodImplementedIterator.class
+SHA1-Digest: IV+ZjuHdIJMnlbXbgTgPWxAAtjc=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AttributeStructureNode.class
+SHA1-Digest: OcNvjzyxn0xo7oZRa4WfGhR8130=
+
+Name: com/sap/aii/mappingtool/tf7/SortingXMLHandler.class
+SHA1-Digest: 7tj5nRrzswr2VvfUXhvRCHdUYlM=
+
+Name: com/sap/aii/mappingtool/flib3/MessageHeader.class
+SHA1-Digest: aCFvsyJNrcXTD1aZiasumjaqNPc=
+
+Name: com/sap/aii/mappingtool/flib3/ValueMapping$IFIdentifierImpl.clas
+ s
+SHA1-Digest: mQytD1+VePY+yK0CrygOX2HjARE=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/RB_tblMessages.class
+SHA1-Digest: iFVBL0Q9I/uVrAJSnEsrtuZhurg=
+
+Name: com/sap/aii/mappingtool/tf7/RQSBuffer.class
+SHA1-Digest: R838OIc2LhqLIM4zaJ9d7FKbOs0=
+
+Name: com/sap/aii/mappingtool/flib7/ValueMapping$Representation.class
+SHA1-Digest: k5LLEIPjgpC4JoYXbVCry/W5Zt4=
+
+Name: com/sap/aii/mappingtool/tf3/rt/AttributeStructureNode.class
+SHA1-Digest: 57Zf80+56E8+NksMK5hzl8twMFk=
+
+Name: com/sap/aii/mappingtool/tf7/IResult.class
+SHA1-Digest: UpopoV4zMeUObMl1jCc0rtb0C3c=
+
+Name: com/sap/aii/mappingtool/tf3/DummyWriter.class
+SHA1-Digest: JfEGTXjTDnGN22gcUwEEcOdJtGU=
+
+Name: com/sap/aii/mappingtool/tf7/ConcurrentBuffer.class
+SHA1-Digest: NeItmJMFnwhHr6YKdsyBGILuSaQ=
+
+Name: com/sap/aii/mappingtool/tf/rt/xparser/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue$IDelegate.class
+SHA1-Digest: I4WWHDlei6+Oq1DGICiJYROaPS0=
+
+Name: com/sap/aii/mappingtool/flib/IfWithoutElse.class
+SHA1-Digest: 7z8ay/TemdHQZDf4KM16k8sQbZ4=
+
+Name: com/sap/aii/mappingtool/tf7/rt/Container.class
+SHA1-Digest: wcMOqp9U9qKwW7a9HOnFWODuuZ8=
+
+Name: com/sap/aii/mappingtool/tf/rt/GlobalContainer.class
+SHA1-Digest: +4wtlbTRJotGD3xcsXwq5XlRNsQ=
+
+Name: com/sap/aii/mappingtool/flib3/DateTransformer.class
+SHA1-Digest: 8/6g9yVlhy8XnCdN3JFPSPHankU=
+
+Name: com/sap/aii/mappingtool/tf3/MemFileInputStream.class
+SHA1-Digest: zebys5K6hbztO7VHtdlMJ5NdeUA=
+
+Name: com/sap/aii/mappingtool/tf7/rt/Iter2Rec.class
+SHA1-Digest: +ZBb4Z3+4jFpQY86fwXvN/4io8I=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_iw.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_zh_CN.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tfapi/CommonIResIterator.class
+SHA1-Digest: g7Fx7uyMUbpriBxTBd5xMZoIeWs=
+
+Name: com/sap/aii/mappingtool/tf7/ITransformerSource.class
+SHA1-Digest: 3Jr9cOqIAuKLaHp/KZ1WwgSHRcM=
+
+Name: com/sap/aii/mappingtool/flib3/SplitByValue$SplitByEach.class
+SHA1-Digest: zwih5yf4nPBIeJ6UCb4SECMecVg=
+
+Name: com/sap/aii/mappingtool/flib3/ValueMapping$Representation.class
+SHA1-Digest: 1/1KmjSDDD+Ia0L5AUUM7ZuqWD0=
+
+Name: com/sap/aii/mappingtool/flib7/Dummer.class
+SHA1-Digest: KDsJbfKk7+vwEg/Qsw8pT6c2U2g=
+
+Name: com/sap/aii/mappingtool/tf7/rt/DummyIterator.class
+SHA1-Digest: Q8BsNN/6OEPGrqe+Owu40eQuz00=
+
+Name: com/sap/aii/mappingtool/flib/MessageHeader.class
+SHA1-Digest: llejdpvWY0hK74p2F3rU+t1/cUo=
+
+Name: com/sap/aii/mappingtool/tf3/ConcurrentBuffer$Res.class
+SHA1-Digest: 1sbz2M6+DVdWIE9rN69jyfRk1CM=
+
+Name: com/sap/aii/mappingtool/tf3/SynchroObject.class
+SHA1-Digest: IN8BG/iALtVl2rMRYP/iIZPd2qY=
+
+Name: com/sap/aii/mappingtool/tf/DummyHandler.class
+SHA1-Digest: 1xBQFV9cWsOhExK8hxml9fL97+s=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/rb_tblMessages_en.properties
+SHA1-Digest: um1oj/L+s+vTIb8L8+EoneEmSaI=
+
+Name: com/sap/aii/mappingtool/tf/Transformer$StreamConnection.class
+SHA1-Digest: qEw9qQ0XlXFmiazb5cqVWZkUFCU=
+
+Name: com/sap/aii/mappingtool/tf/Transformer$StreamHandler.class
+SHA1-Digest: NN8Uu9lkgbM5sDwdM8yK8PFYiG0=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$2$1.class
+SHA1-Digest: qr8daRa+bObfqYGPPIR2YmEv52w=
+
+Name: com/sap/aii/mappingtool/flib7/RfcTransformationInput.class
+SHA1-Digest: h+Wpi8+ooXsAKpbnnTVG3hkLpys=
+
+Name: com/sap/aii/mappingtool/tf3/Queue$Entry.class
+SHA1-Digest: xHMAkoAh5Bjj7MkM9IbRRgumlj0=
+
+Name: com/sap/aii/mappingtool/tf7/IOutputHandler.class
+SHA1-Digest: UCsJB3FAsZ4vsPFes8p5PLP9kts=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram.class
+SHA1-Digest: F9/T7MIHG9QXu902e428rg3euWk=
+
+Name: com/sap/aii/mappingtool/flib3/CollapseContexts.class
+SHA1-Digest: NgDV7sLfYqQ/SZwYhEGl3FiKiS0=
+
+Name: com/sap/aii/mappingtool/flib/Dummer.class
+SHA1-Digest: ExQwUF23uxhmJUNJcg4j8zdityc=
+
+Name: com/sap/aii/mappingtool/tf3/rt/DummyIterator.class
+SHA1-Digest: D431Q+zN0ejE9z6EEiDS5aMnKf4=
+
+Name: com/sap/aii/mappingtool/tf7/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf3/rt/AResIterator.class
+SHA1-Digest: V8i0qpxAPol7QBQKPQb7cV591gQ=
+
+Name: com/sap/aii/mappingtool/tf/rt/AResIterator.class
+SHA1-Digest: b/Mcsd4ggNYGIE0GJoFWEpZSTtA=
+
+Name: com/sap/aii/mappingtool/flib7/Stat.class
+SHA1-Digest: eq9Er+dwc0J807uWRxlOsAN7cI0=
+
+Name: com/sap/aii/mappingtool/flib/ValueMapping.class
+SHA1-Digest: ZrGWPMw+rtkmGrj00yUAMRNx328=
+
+Name: com/sap/aii/mappingtool/tf7/SynchroObject.class
+SHA1-Digest: CKrB/lPCZz4Tjl7+UupTOD7AEWI=
+
+Name: com/sap/aii/mappingtool/tf7/RB_all.class
+SHA1-Digest: YSsmr8sB52bGisnuXRZMwRdl6Ts=
+
+Name: com/sap/aii/mappingtool/tf3/RQSBuffer$1.class
+SHA1-Digest: 5PAgWWxuZj1VeO1yZvMMAYhuxBQ=
+
+Name: com/sap/aii/mappingtool/tf/ValueListener.class
+SHA1-Digest: 2jeDra/lQ3WsAqaGx1l0fwb9EB4=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MultiResIterator.class
+SHA1-Digest: +3/1UuJav9Rb3P7UA4+FMlHj7V8=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/MTSaxHandler.class
+SHA1-Digest: nmbXjnGE4rHymYLais9TXx4k6xk=
+
+Name: com/sap/aii/mappingtool/tf7/ProfilingDataCollector.class
+SHA1-Digest: 35iuHpjlyMqFqWylsOIu2FL0Wk8=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AResIterator.class
+SHA1-Digest: yhCQtCGx+RVnOFC+/7SahO/AJig=
+
+Name: com/sap/aii/mappingtool/flib/CollapseContexts.class
+SHA1-Digest: AiblpQTPAZ08xf3acnxX+dHCXLk=
+
+Name: com/sap/aii/mappingtool/tf3/rt/StructureNode.class
+SHA1-Digest: gFJIm9uqm6QXb9vJdHfIk0u0NM8=
+
+Name: com/sap/aii/mappingtool/tf7/DummyWriter.class
+SHA1-Digest: +K+2q4w5cSgoj9gHD9//Q62hoT0=
+
+Name: com/sap/aii/mappingtool/tf3/ParserBrakes.class
+SHA1-Digest: HdmmcmCcL4riYhyANkjG3hUQdnE=
+
+Name: com/sap/aii/mappingtool/flib7/DoNothing.class
+SHA1-Digest: +DJ1uzL4CiBvczcuDRmglTC1SdE=
+
+Name: com/sap/aii/mappingtool/tf/AMappingProgram.class
+SHA1-Digest: fCHsE8duQUTGXJuKNnsyLVh2jRg=
+
+Name: com/sap/aii/mappingtool/flib7/Receiver.class
+SHA1-Digest: dHZKOBZSDqd2pihO7nCtHdc4t3U=
+
+Name: com/sap/aii/mappingtool/tfapi/ResIteratorDump.class
+SHA1-Digest: psscJMQJwbBGf0C5HVqIe2r/bCo=
+
+Name: com/sap/aii/mappingtool/tf7/rt/ResultListImpl$SimpleQueue.class
+SHA1-Digest: h6agc7f9KOqc3564kk2JKphPR5Q=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/package-version.propertie
+ s
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/flib7/CollapseContexts.class
+SHA1-Digest: sCv2tXrErGlcpV4B/CDrQf52wtE=
+
+Name: com/sap/aii/mappingtool/flib7/MessageHeader.class
+SHA1-Digest: Y5HB31ZfRqE0H4RLw8W6BwSsgpE=
+
+Name: com/sap/aii/mappingtool/tf/rt/xparser/ExceptionListener.class
+SHA1-Digest: eIJ+FU151XlDNzyhd3OFLQhYFLU=
+
+Name: com/sap/aii/mappingtool/tf7/rt/C2CFunctionWrapper.class
+SHA1-Digest: KNb+cVrvVrpMyAhqR3sNK3i0ZVk=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/XParser.class
+SHA1-Digest: 6jfSzzyQe6IhSTojkD1X7mZcjFo=
+
+Name: com/sap/aii/mappingtool/tf/Transformer.class
+SHA1-Digest: 5EHyBmseQeeQ387T0jbbhxVNfzI=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_de.properties
+SHA1-Digest: drI0FsCi3tW2KnsxOjfI8j3Xtuo=
+
+Name: com/sap/aii/mappingtool/flib3/Receiver.class
+SHA1-Digest: mw/YwgYGZK80ZSahvxel5uBMhMM=
+
+Name: com/sap/aii/mappingtool/flib/Arithm.class
+SHA1-Digest: soV0lFyxkrmiJEOQOlcUMZV7vbw=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_en.properties
+SHA1-Digest: P9E5HnHNYYjlPFOWIXaJIQOO3WI=
+
+Name: com/sap/aii/mappingtool/tf7/XMLOutputTracingHandler.class
+SHA1-Digest: LRZNKLVkDaRgyiHel7Ap4i4kMXg=
+
+Name: com/sap/aii/mappingtool/tf/TableUtils.class
+SHA1-Digest: j9L9uDy2a+aXjPs3G9t4bQNFGOg=
+
+Name: com/sap/aii/mappingtool/tf7/DummyWriter$1.class
+SHA1-Digest: flI7vqZDVr+DJov4fFP7CiT8nHA=
+
+Name: com/sap/aii/mappingtool/tf3/RQPtr.class
+SHA1-Digest: +pGVfjd+l6GEiDqq+ui+6HLdXp4=
+
+Name: com/sap/aii/mappingtool/tf/rt/Q2QFunctionWrapper.class
+SHA1-Digest: r/jKwmYKty/yEJ8qr+fMkcsW6H8=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_iw.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/flib7/DateTransformer.class
+SHA1-Digest: lRpp4Nf5Mo91RD/XpgLifakRfLk=
+
+Name: com/sap/aii/mappingtool/flib/Constant.class
+SHA1-Digest: l28AAxtcWZtkytUNb+N4zlbC5c8=
+
+Name: com/sap/aii/mappingtool/tf3/MessageMappingException.class
+SHA1-Digest: RMKUnPGROA4ONsc3Rcn0xS4l0cw=
+
+Name: com/sap/aii/mappingtool/flib7/RfcPayload$1.class
+SHA1-Digest: m+dfDtMh/o3kdIvtYrx95jFLs3Q=
+
+Name: com/sap/aii/mappingtool/flib3/Dummer.class
+SHA1-Digest: /eh0+tku1tWDgp2W3rV2Wma/+lo=
+
+Name: com/sap/aii/mappingtool/tf3/rt/NodeArgWrapper.class
+SHA1-Digest: EOC53pPtK8FOL6sITCSJeZYEsPs=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_de.properties
+SHA1-Digest: I1hhv/vkHbIoEQL0hONPJTpSmPQ=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AbstractFunctionWrapper.class
+SHA1-Digest: e9QAZqlxdG+95xpbbMpycc0aGIk=
+
+Name: com/sap/aii/mappingtool/flib7/Arithm.class
+SHA1-Digest: 8nLzQCtIUOgpys1J15CRcV4Jf2Q=
+
+Name: com/sap/aii/mappingtool/tf3/AMappingProgram.class
+SHA1-Digest: VJhN4zdKS7hOe2S03YBLwHdCm5g=
+
+Name: com/sap/aii/mappingtool/tf7/TableUtils.class
+SHA1-Digest: m6nGV29wAW0IWsMNl8B9crefG/w=
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue$SplitByEach.class
+SHA1-Digest: CwlXBXoCkiet9OWMadTXV2o7EQU=
+
+Name: com/sap/aii/mappingtool/tf/IValueStorage.class
+SHA1-Digest: UqbfBOy9AWcUnCbgoEEq4tjzklc=
+
+Name: com/sap/aii/mappingtool/flib3/DateFunctions.class
+SHA1-Digest: 5CVufwKMDj/wG/rnJNMM/VUAokw=
+
+Name: com/sap/aii/mappingtool/flib7/RfcPayload$RfcExceptionChecker.cla
+ ss
+SHA1-Digest: JbqsbFAOmJDxQxMqsX2Tn/jFhJM=
+
+Name: com/sap/aii/mappingtool/tf/IOutputHandler.class
+SHA1-Digest: PEwaAk0m/z4JOSrs1uwZuSamVOw=
+
+Name: com/sap/aii/mappingtool/tf7/TableUtils$CntxtIter.class
+SHA1-Digest: 7LfGbGqhLSysvYJQv1g0Qqhsucs=
+
+Name: com/sap/aii/mappingtool/flib3/Sender.class
+SHA1-Digest: st4UaQ5miKTCmfwus9opwZ9TD+4=
+
+Name: com/sap/aii/mappingtool/tf/XMLOutputHandler.class
+SHA1-Digest: AdTVXYNNawPL0o7a3Fv23c/SAYA=
+
+Name: com/sap/aii/mappingtool/tf7/rt/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/flib7/SplitByValue.class
+SHA1-Digest: GX35+eJDbgpOtQJu/ctLNg2Yx1w=
+
+Name: com/sap/aii/mappingtool/flib7/Bool.class
+SHA1-Digest: 0VvKkAbFEXslBASGDhNz5awQ2AA=
+
+Name: com/sap/aii/mappingtool/tf7/Queue$Entry.class
+SHA1-Digest: Ls+9geOHNJQgs7GhgUHMGdxiA3A=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/MTSaxHandler$1.class
+SHA1-Digest: KSoOSqwLlTRZLZdqgloF1TtSE+4=
+
+Name: com/sap/aii/mappingtool/flib7/SelectSingle.class
+SHA1-Digest: 3+b7q/PU+jOsplWARYltq6dW66E=
+
+Name: com/sap/aii/mappingtool/tf3/SOUTTrace.class
+SHA1-Digest: Ap+FZB55iotyjAHvByuBhA96YXE=
+
+Name: com/sap/aii/mappingtool/tf/OutputStreamWrapper.class
+SHA1-Digest: WntbPabuYsOu/OJ52cMPpuoHGG8=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_zh_HK.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf7/ConcurrentBuffer$Res.class
+SHA1-Digest: RBXD90pWAjuBEbfqnlh9h/kkubU=
+
+Name: com/sap/aii/mappingtool/tf7/ProfilingDataCollector$IterLogger.cl
+ ass
+SHA1-Digest: isj7n7+uu/tZPOqHJG4lRFnk6w8=
+
+Name: com/sap/aii/mappingtool/tf7/rt/Q2QFunctionWrapper.class
+SHA1-Digest: mLilfi1Z+LHt+deY7a73VeUkmd8=
+
+Name: com/sap/aii/mappingtool/tf7/TableUtils$ArrayIter.class
+SHA1-Digest: W2WHUmzErZgQdO+FF/l41iDbe0M=
+
+Name: com/sap/aii/mappingtool/flib3/NodeFunctions.class
+SHA1-Digest: aivE3vkjVaDcQPpuwSKoGhgRYh8=
+
+Name: com/sap/aii/mappingtool/tf3/OutputStreamWrapper.class
+SHA1-Digest: SYKEi/9MVyLn+TY5sPgKepupaXE=
+
+Name: com/sap/aii/mappingtool/flib7/CurDate$InnerDate.class
+SHA1-Digest: +whA7w+gU60lmsXaGIjO9j53CZ0=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$1$1.class
+SHA1-Digest: w2pPn3MYvfyzSDudHLQ7k9j/TME=
+
+Name: com/sap/aii/mappingtool/flib/DateFunctions.class
+SHA1-Digest: O+XEz8jpT42aDKAK9vnv67q2Ghg=
+
+Name: com/sap/aii/mappingtool/flib7/Plainer.class
+SHA1-Digest: qo9sIxzj0farYdvw69L8RjG8JkM=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/rb_tblMessages.properties
+SHA1-Digest: um1oj/L+s+vTIb8L8+EoneEmSaI=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/PathHelper.class
+SHA1-Digest: gLObOZavH+0RXan1UQvuu8r+6lY=
+
+Name: com/sap/aii/mappingtool/flib7/SplitByValue$SplitByEmpty.class
+SHA1-Digest: bXC7Xz5pBPHtMOKsESvKPNf9HGQ=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/rb_tblMessages_de.properties
+SHA1-Digest: bED0G8inz4fRu3u4YICFmqf/Ae8=
+
+Name: com/sap/aii/mappingtool/tf3/MappingInfo.class
+SHA1-Digest: WJ4lEbUcDA1GaYdmjG8euwBMjpY=
+
+Name: com/sap/aii/mappingtool/tf7/rt/NodeArgWrapper.class
+SHA1-Digest: 65PHIn0i9IBF4bRl6z/RNspzc2Y=
+
+Name: com/sap/aii/mappingtool/flib3/SplitByValue.class
+SHA1-Digest: QGOn91dsd8arLspwHBLglUDY2dU=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/ExceptionListener.class
+SHA1-Digest: TL63EEO7YFRB0DfLQNrE6alngho=
+
+Name: com/sap/aii/mappingtool/tf3/rt/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf7/rt/DummyTrace.class
+SHA1-Digest: S5d6udhnphQ9NAhZEBBs9tPJUjc=
+
+Name: com/sap/aii/mappingtool/flib7/RfcTransformationInput$1.class
+SHA1-Digest: HLflXgVIOu8fjYh/4j6mgZxvfi8=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/XMLTable$Key.class
+SHA1-Digest: iR9HFfAA0O5qnBODuN+smgWUWqA=
+
+Name: com/sap/aii/mappingtool/flib7/NodeFunctions$Pair.class
+SHA1-Digest: 5UZSEvCBfokvGlYGKlfln9s2ioU=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_en.properties
+SHA1-Digest: 3+tOmN1Gg8/mslSmZx6w8QJh8tY=
+
+Name: com/sap/aii/mappingtool/tf/DummyStream$1.class
+SHA1-Digest: 5/14TdJWG6Lbn7HfvFSgril2hFc=
+
+Name: com/sap/aii/mappingtool/flib/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf7/PWriter.class
+SHA1-Digest: Ah4m9lHnK+d+bvvItZx7Z5H3Ci8=
+
+Name: com/sap/aii/mappingtool/tfapi/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf3/ValueListener.class
+SHA1-Digest: hkTNYDhSMnB7csYW221wRZxFnuc=
+
+Name: com/sap/aii/mappingtool/tf7/ValueStorage$Request.class
+SHA1-Digest: rdQfN8Y0kNPPgjn4gZodlJwJ95w=
+
+Name: com/sap/aii/mappingtool/flib/DateTransformer.class
+SHA1-Digest: DDB2EcbQQF6Gh2xqqmwnEehpFik=
+
+Name: com/sap/aii/mappingtool/tf7/FunctionException.class
+SHA1-Digest: A1QTjB4CJVn1ukvdW6/OXo+UE/0=
+
+Name: com/sap/aii/mappingtool/tf7/Transformer.class
+SHA1-Digest: ruga9L2aLsg8LsCxTqTcUpQlhzM=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_fr.properties
+SHA1-Digest: VHDRjD1RjIRa8rExciGZzHHXE0o=
+
+Name: com/sap/aii/mappingtool/flib7/RfcLookup$ResponseHandler.class
+SHA1-Digest: 84UU3wL3PTZ6KSqSRSyRY5e1iYk=
+
+Name: com/sap/aii/mappingtool/tf/ITransformerSource.class
+SHA1-Digest: 3X5K3V5SAAL+MazHxPpCgY69AIM=
+
+Name: com/sap/aii/mappingtool/tf3/XMLOutputTracingHandler.class
+SHA1-Digest: OS2PzGniNd5CLKqXF3Vw8zdq8/A=
+
+Name: com/sap/aii/mappingtool/tf7/rt/GlobalContainer.class
+SHA1-Digest: P3Tnvkrxh1pmAbt6J6Wrq5L8+BI=
+
+Name: com/sap/aii/mappingtool/tf7/DummyHandler.class
+SHA1-Digest: P4QU9SeLqDobycivh4ZS1uL9H3A=
+
+Name: com/sap/aii/mappingtool/tf7/ResultQueue.class
+SHA1-Digest: 2mSjnWU/pc/YSaKV9R3VeQ9PqSY=
+
+Name: com/sap/aii/mappingtool/tf3/rt/LeafStructureNode$NumberComparato
+ r.class
+SHA1-Digest: ktXnFrKk/0s7RpmE/HArXMvFz0A=
+
+Name: com/sap/aii/mappingtool/flib3/Counter.class
+SHA1-Digest: ZkygVqUlHOO8FsKlK+KnOFiIilw=
+
+Name: com/sap/aii/mappingtool/flib3/CurDate.class
+SHA1-Digest: kzj1Oi1Sj/9vrRN0hUrUwR/vejk=
+
+Name: com/sap/aii/mappingtool/tf3/IOutputHandler.class
+SHA1-Digest: q267iWJ8Nwv9sNp9Izea16agfBE=
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue$1.class
+SHA1-Digest: +gjlzBoixTDh7n4zQSJy0zXMZS4=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AMTIterator.class
+SHA1-Digest: ZmXXvGawOteo1le9Wp4QnJVHEeQ=
+
+Name: com/sap/aii/mappingtool/flib7/NodeFunctions.class
+SHA1-Digest: 17zWnblzJcI41kmxiaje5SiPVlM=
+
+Name: com/sap/aii/mappingtool/tfapi/TfConstants.class
+SHA1-Digest: jPhklYReaiDLJiccpgigHjeCdNs=
+
+Name: com/sap/aii/mappingtool/tf3/rt/IMTMemManager.class
+SHA1-Digest: GmGiqm5up4fDp487qr5dbz2srqI=
+
+Name: com/sap/aii/mappingtool/tf3/ConcurrentBuffer.class
+SHA1-Digest: Bvg58/3apV8cwvvvGBO0jUf/mqw=
+
+Name: com/sap/aii/mappingtool/tf3/rt/FunctionWrapper.class
+SHA1-Digest: nEqxCshT6Jo3BAAcfkyYR+7IIuU=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$2.class
+SHA1-Digest: qwe1REcdT9vdWI2G3FXooAnO+58=
+
+Name: com/sap/aii/mappingtool/flib7/Sender.class
+SHA1-Digest: qou0yJzmLB7XBVHw4HoC8L75xaY=
+
+Name: com/sap/aii/mappingtool/tf3/rt/LeafStructureNode$SortParams.clas
+ s
+SHA1-Digest: 7NRHs0CNjtmxWXopWe+Qlqfn2aI=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/TableBuilder$Pair.class
+SHA1-Digest: GStacO+2e8D7W7OpKklXD9VsRP8=
+
+Name: com/sap/aii/mappingtool/tf/rt/xparser/TParser.class
+SHA1-Digest: ciPMIbsVUxScmriKlsJAHZQoAao=
+
+Name: com/sap/aii/mappingtool/tf7/rt/ResultList.class
+SHA1-Digest: t1ov94ETHSoOYkQBrGvD0+h22Fg=
+
+Name: com/sap/aii/mappingtool/tf/ParserBrakes.class
+SHA1-Digest: yDSiu+ETJAcw5w1JyH5uRU1/NoM=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/XMLTable.class
+SHA1-Digest: iTDzDotmdb8rkT7l3pZJRDo5u5o=
+
+Name: com/sap/aii/mappingtool/flib3/SplitByValue$IDelegate.class
+SHA1-Digest: fxEx56UxPMyUrsc/6RAmmdrrzGw=
+
+Name: com/sap/aii/mappingtool/tf/rt/ResultListImpl.class
+SHA1-Digest: NC3nn42TTe4pG9aqeBwNgiFhcmI=
+
+Name: com/sap/aii/mappingtool/flib3/NodeConst.class
+SHA1-Digest: 6iAuXdqHo0Box9RY3fZjTXK+55U=
+
+Name: com/sap/aii/mappingtool/tf7/IValueStorage.class
+SHA1-Digest: oYwjS/vneZyXKji+k1pWNznUDlg=
+
+Name: com/sap/aii/mappingtool/flib7/DateFunctions.class
+SHA1-Digest: miu2D/6vmqisHp4YB/EXL3pToF0=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_zh_HK.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/flib/TextFunctions.class
+SHA1-Digest: Xe6EMJoU2AWrVe7T0wgevDqpN+g=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MethodSignature.class
+SHA1-Digest: iMPdk1NCw6/5fcEFjtGHFXiFcdk=
+
+Name: com/sap/aii/mappingtool/tf/ResultQueue.class
+SHA1-Digest: RhzurNQjljd9A3H6bUethtk9ldA=
+
+Name: com/sap/aii/mappingtool/flib/NodeFunctions.class
+SHA1-Digest: j3+feJpBV1biikqS+o/sNSDDruo=
+
+Name: com/sap/aii/mappingtool/tf3/rt/Q2QFunctionWrapper.class
+SHA1-Digest: +xIXMppABX/4Ho4nD6ZloWI+E00=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_de.properties
+SHA1-Digest: B9VdJgGjwa59/KXZ3CfPJckJLvE=
+
+Name: com/sap/aii/mappingtool/flib3/NodeFunctions$Pair.class
+SHA1-Digest: ujUiinuROrkKYOWsyurrXLjpyC4=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/TableBuilder.class
+SHA1-Digest: YiDz2VY231NUipzeqoV3kGtId04=
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue$SplitByEmpty.class
+SHA1-Digest: hopcl70vqlpx6bJH1EBTE8RrdpQ=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/rb_tblMessages_ja.properties
+SHA1-Digest: zcCIiUIqpksFnDV09C0Zcsa6saQ=
+
+Name: com/sap/aii/mappingtool/tf7/DummyStream$1.class
+SHA1-Digest: zDXNyihHz2bViofDRMH2bKwGgIU=
+
+Name: com/sap/aii/mappingtool/flib7/Counter.class
+SHA1-Digest: i0SLPazHoLuyDhpFWEypMXY+ED4=
+
+Name: com/sap/aii/mappingtool/tf7/rt/ResultListImpl.class
+SHA1-Digest: glpA3Tfo5AlfyNlKzKQCZUOOGCk=
+
+Name: com/sap/aii/mappingtool/tf7/rt/LeafStructureNode$NumberComparato
+ r.class
+SHA1-Digest: YGs0s36TSlXy8OdOI0twf9byKbs=
+
+Name: com/sap/aii/mappingtool/flib3/Constant.class
+SHA1-Digest: vqEwUDjAyzpae181awB/LZfOFWg=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MultiOutFunctionWrapper.class
+SHA1-Digest: FlABj7UzL4wB3Z/mk1StMDC6AHY=
+
+Name: com/sap/aii/mappingtool/tf3/TableUtils.class
+SHA1-Digest: OOG+H1wfgQ4BYyl1+vMDPuo/EhI=
+
+Name: com/sap/aii/mappingtool/tf/rt/FunctionWrapper.class
+SHA1-Digest: OMI9CMish/cTpDaQXtLJyblEY6M=
+
+Name: com/sap/aii/mappingtool/tf7/rt/IResIterator.class
+SHA1-Digest: 8nZOI846qNFBhYl6prF0+UU/nI8=
+
+Name: com/sap/aii/mappingtool/tf3/Queue.class
+SHA1-Digest: gX6AD+vkbNPNcNXJwRdUUaK78us=
+
+Name: com/sap/aii/mappingtool/tfapi/TestModeMappingTrace.class
+SHA1-Digest: ExIFxzEga7dWi+Q9dIj0PQOzIAE=
+
+Name: com/sap/aii/mappingtool/tf3/DummyStream$1.class
+SHA1-Digest: XaDbzv8gJSKIsGiumSj+NzWmLGY=
+
+Name: com/sap/aii/mappingtool/flib3/Stat.class
+SHA1-Digest: Z1LnS3rKxytFZ3301RO4Xu/Z+Ck=
+
+Name: com/sap/aii/mappingtool/tf3/IValueStorage.class
+SHA1-Digest: 8upJme52kaxEsrRd02jklKJjrSk=
+
+Name: com/sap/aii/mappingtool/tf/CharToByteUTF8.class
+SHA1-Digest: abIptii/7bFn37o5LLY9el1LOwY=
+
+Name: com/sap/aii/mappingtool/tf7/rt/FunctionWrapper.class
+SHA1-Digest: YSAaeIPdjzX++LKZB6KG0msk2Bk=
+
+Name: com/sap/aii/mappingtool/flib3/Arithm.class
+SHA1-Digest: DjhSRlSH4mzhPfXkEtfw3skZnik=
+
+Name: com/sap/aii/mappingtool/flib/SplitByValue$SplitByChange.class
+SHA1-Digest: 8qFMatr2yFrKYv4to6x12JZpzAo=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AMultiResIterator$MultiOutIterato
+ r.class
+SHA1-Digest: qHfbprIsUKOc56KOE+hxbxOk7ww=
+
+Name: com/sap/aii/mappingtool/tf7/rt/LeafStructureNode.class
+SHA1-Digest: GxOxsm8//NY2RfTqQN66saDfNyM=
+
+Name: com/sap/aii/mappingtool/flib7/Exists.class
+SHA1-Digest: TRTOkwjfUl1LJwU+1uGGVF1Efxg=
+
+Name: com/sap/aii/mappingtool/tf3/RB_all.class
+SHA1-Digest: uGKUF5SJ4dHa8Gz04Sp2mbXyX3U=
+
+Name: com/sap/aii/mappingtool/flib3/ValueMapping.class
+SHA1-Digest: UgJZ48USGe9yLqv01iobxWvJ/Dw=
+
+Name: com/sap/aii/mappingtool/flib7/rb_Functions_fr.properties
+SHA1-Digest: iOUyGaM/UrHpZlDi/HrKNqCf3JQ=
+
+Name: com/sap/aii/mappingtool/flib/CurDate.class
+SHA1-Digest: iSs2QtwY0vOIVTo/oW2XXLzeLDk=
+
+Name: com/sap/aii/mappingtool/flib7/NodeConst.class
+SHA1-Digest: ML1x+v+N0S6kq0ictdxLazSL7fI=
+
+Name: com/sap/aii/mappingtool/flib/Bool.class
+SHA1-Digest: Oo23B8gjIoqgHZhRviS8PvB+IFA=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_zh_HK.properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: com/sap/aii/mappingtool/tf7/DummyHandler$1.class
+SHA1-Digest: nl6MOBPKAN+uCidV3eEK676Evpg=
+
+Name: com/sap/aii/mappingtool/flib7/If.class
+SHA1-Digest: AePCYssCW5Zd8sPimjQ1+CigGxA=
+
+Name: com/sap/aii/mappingtool/tf3/ICommonTransformerSource.class
+SHA1-Digest: EiRGjemZ3bwaYwKFV6aTXiFAjsg=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/MTSaxHandler$1.class
+SHA1-Digest: xdY1ZxeRWHoFrqd5PZX2UpklwBU=
+
+Name: com/sap/aii/mappingtool/tf/IResult.class
+SHA1-Digest: iTrIOgG0sLnUWgi1WTKaD8FQSP8=
+
+Name: com/sap/aii/mappingtool/flib/ValueMapping$Representation.class
+SHA1-Digest: NxxcmHswLgtlGCq5GJT1mSsogNQ=
+
+Name: com/sap/aii/mappingtool/flib7/RfcTransformationOutput$1.class
+SHA1-Digest: q24Dzp2gJ66+dgne0KcXJVh5b4M=
+
+Name: com/sap/aii/mappingtool/tf3/rt/ResultList.class
+SHA1-Digest: 8C2IaWPJ9W8jkV/xNXq5yqV8sPY=
+
+Name: com/sap/aii/mappingtool/tf3/rt/GlobalContainer.class
+SHA1-Digest: GF13M/TdYX1f4iul5Yqy4QfrrKg=
+
+Name: com/sap/aii/mappingtool/tf7/CBufIter.class
+SHA1-Digest: wt33lz4dUSi8h/fqbO/W0b3JanE=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/MTSaxHandler.class
+SHA1-Digest: xGqUivMWC20PCNCWnBgczOU2Tdg=
+
+Name: com/sap/aii/mappingtool/tf7/rt/AMultiResIterator.class
+SHA1-Digest: Mt2Yf2shlg3lRc2i2I2siEk7ejc=
+
+Name: com/sap/aii/mappingtool/tf7/Transformer$StreamConnection.class
+SHA1-Digest: oYQN6LiEJXT0IqhOIy0yhRM0CA0=
+
+Name: com/sap/aii/mappingtool/tf3/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf/Queue$Entry.class
+SHA1-Digest: SHAu6frOIfb4VY3u9zJSobWzyRE=
+
+Name: com/sap/aii/mappingtool/tf3/RQBuffer.class
+SHA1-Digest: gH6R8vjFXMpmayKBtqoeYhEClTo=
+
+Name: com/sap/aii/mappingtool/tf3/rt/DummyTrace.class
+SHA1-Digest: zJ91FE2N+fycS3yPhdcF8OjbAcU=
+
+Name: com/sap/aii/mappingtool/tf/DummyWriter$1.class
+SHA1-Digest: Umbood+AfB9iuUsliuTcbF7O9C0=
+
+Name: com/sap/aii/mappingtool/flib3/Plainer.class
+SHA1-Digest: kQk+bVPhiQfdqWmPqXBrBXuBxy8=
+
+Name: com/sap/aii/mappingtool/tf3/RQSBuffer.class
+SHA1-Digest: Lo0vsffOA8NLXXBezvW9L9GUDqM=
+
+Name: META-INF/buildinfo.xml
+SHA1-Digest: ItsWTSEHM41jTwpnHlwt99M8DAU=
+
+Name: com/sap/aii/mappingtool/tf/rt/xparser/IParserControl.class
+SHA1-Digest: ekEuVggpkHr2Qteq2X+aLy33wDk=
+
+Name: com/sap/aii/mappingtool/tf3/rt/C2CFunctionWrapper.class
+SHA1-Digest: CojAqGndwEDrPHMBQZ5kLhXPGxY=
+
+Name: com/sap/aii/mappingtool/tf3/rt/LeafStructureNode.class
+SHA1-Digest: 1H6WdBR6diMDEUUMFdUZ6T8+PC0=
+
+Name: com/sap/aii/mappingtool/tf3/rt/ResultListImpl.class
+SHA1-Digest: 5haJRVlsLvGV37JHeQMzPOpmWYs=
+
+Name: com/sap/aii/mappingtool/flib3/CalendContainer.class
+SHA1-Digest: g/7RLOveIIQ8eFMNAWiuMRrnvek=
+
+Name: com/sap/aii/mappingtool/flib7/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf3/rt/Container.class
+SHA1-Digest: CqC25moVbt6RggF2i9STSbJYnds=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_ja.properties
+SHA1-Digest: 6eUZHf/MhRoBUzlugd3mJCnpn5s=
+
+Name: com/sap/aii/mappingtool/tf/PWriter.class
+SHA1-Digest: AQqeM/cX0qJI51sx3soW13dfS04=
+
+Name: com/sap/aii/mappingtool/tf7/ValueStorage.class
+SHA1-Digest: f8uBfo6tk46JzzBTear85QNSUss=
+
+Name: com/sap/aii/mappingtool/tf3/DummyStream.class
+SHA1-Digest: bQdQBCHkfzYjLeyD2I44ZjmnVPE=
+
+Name: com/sap/aii/mappingtool/tf/ValueStorage$Request.class
+SHA1-Digest: xsI7bQo71QM1X8yzXQ24UAsdx0s=
+
+Name: com/sap/aii/mappingtool/tf7/DummyStream.class
+SHA1-Digest: gzbu6d8YbVBJ48Yaq0NUqb2E29U=
+
+Name: com/sap/aii/mappingtool/flib7/RfcPayload.class
+SHA1-Digest: INSHtCx7ityrJvamWMrdXMS/WFU=
+
+Name: com/sap/aii/mappingtool/tf7/rb_all_fr.properties
+SHA1-Digest: pC6QYnhdiAOwVc09RzpxJmXbgnY=
+
+Name: com/sap/aii/mappingtool/tf3/AMappingProgram$XMLEntry.class
+SHA1-Digest: ///hqeZK8qfOezyOOHVcaRBXK2E=
+
+Name: com/sap/aii/mappingtool/tf3/rt/xparser/ExceptionListener.class
+SHA1-Digest: kPT6uqPBEijOXK/171r51D0MbRE=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/XMLTable$Value.class
+SHA1-Digest: mvfzGlsZ/1UfOwII/SgyTboTmAM=
+
+Name: com/sap/aii/mappingtool/flib/NodeConst.class
+SHA1-Digest: C0mnHuobQfo62mvBfhfxcghvT6c=
+
+Name: com/sap/aii/mappingtool/tf/DummyWriter.class
+SHA1-Digest: d5Y3flhQZ/nmkXITIYyvLrQ/dpc=
+
+Name: com/sap/aii/mappingtool/tf3/DummyHandler.class
+SHA1-Digest: Ugfk1T71KVSOJwJoZdibKtDelt8=
+
+Name: com/sap/aii/mappingtool/tf3/XMLOutputHandler.class
+SHA1-Digest: rbpNLru/ReKoQscK/GR++sND7uc=
+
+Name: com/sap/aii/mappingtool/tf3/ITransformerSource.class
+SHA1-Digest: d6ofPjOBfgLShymGWkPlKNNUVX4=
+
+Name: com/sap/aii/mappingtool/tf7/MessageMappingException.class
+SHA1-Digest: xDHI8e+l5HO9m2sKRo+nK/RW1/s=
+
+Name: com/sap/aii/mappingtool/tf3/AMappingProgram$KeyComparator.class
+SHA1-Digest: ZCW1HePjC8tR6L1uj72SO5NHTbU=
+
+Name: com/sap/aii/mappingtool/flib3/If.class
+SHA1-Digest: vTGWyYqYiao8YmivOHs9YnEooGM=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$1.class
+SHA1-Digest: mgaUx1JhvDI0NPL6Zb6unBmrxW0=
+
+Name: com/sap/aii/mappingtool/tf/Result.class
+SHA1-Digest: 2DALZNr8Po5AUFhtvT2cxlYqlQM=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/package-version.propertie
+ s
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf/rt/C2CFunctionWrapper.class
+SHA1-Digest: 9I9mFq0T9os50I4Rhxk5EH21hvQ=
+
+Name: com/sap/aii/mappingtool/tf/SynchroObject.class
+SHA1-Digest: l/ksPbQXdSHXoOYF47glidzwO1A=
+
+Name: com/sap/aii/mappingtool/flib7/RB_Functions.class
+SHA1-Digest: opj02M4otwUjA51zBRYrPnpm3q4=
+
+Name: com/sap/aii/mappingtool/tf7/ContainerUtils.class
+SHA1-Digest: /VGN7k9PensyKISWKjd1DFTCZ8U=
+
+Name: com/sap/aii/mappingtool/flib7/IfWithoutElse.class
+SHA1-Digest: f1Ylgp94RrOHSyHNAP8F1BVcWR4=
+
+Name: com/sap/aii/mappingtool/tf7/AMappingProgram$KeyComparator.class
+SHA1-Digest: 7EHwhpEj/JcaC6UwdFzDXRkScpg=
+
+Name: com/sap/aii/mappingtool/flib/Plainer.class
+SHA1-Digest: SMw7FXhtaqYDo0PbJYDmUQkKtFg=
+
+Name: com/sap/aii/mappingtool/tf7/rt/LeafStructureNode$SortParams.clas
+ s
+SHA1-Digest: 6A/OuGs0MlGoS9KJc8nruSZ/WOo=
+
+Name: com/sap/aii/mappingtool/tf3/DummyWriter$1.class
+SHA1-Digest: EZv+ESAal32bE8+Twf9dhh7WzXo=
+
+Name: com/sap/aii/mappingtool/tf7/tbl/UniTable.class
+SHA1-Digest: xXeKWEjUfyrq6bldu8ApIsV6GGM=
+
+Name: com/sap/aii/mappingtool/tf7/rt/MethodImplementedIteratorHelper.c
+ lass
+SHA1-Digest: FNsVr5axHY03O9vwa6tcjQA2yoY=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all.properties
+SHA1-Digest: 0UbCAZ3UHoVcTdLSdPeQFRblurE=
+
+Name: com/sap/aii/mappingtool/tf3/CBufIter.class
+SHA1-Digest: 6EHn0gqDoCDTpdLNItqZa6rTosU=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/XParser.class
+SHA1-Digest: //6/DeQ4HMF6zwLvLYYnXZM4Jt4=
+
+Name: com/sap/aii/mappingtool/flib3/SplitByValue$SplitByEmpty.class
+SHA1-Digest: TzQDebcgs11uzxAZIYukXYPqVfc=
+
+Name: com/sap/aii/mappingtool/tf/rt/ResultList.class
+SHA1-Digest: hlu/U7K5+J2WuMsrs7djbiajw7c=
+
+Name: com/sap/aii/mappingtool/tfapi/ResIteratorDump$Entry.class
+SHA1-Digest: AZO1mSjmBplJpUKK0EJdXNnR1t0=
+
+Name: com/sap/aii/mappingtool/tf7/rt/xparser/IParserControl.class
+SHA1-Digest: Q1lwB/+N3KAyRSCy2/19c97PIpk=
+
+Name: com/sap/aii/mappingtool/tf/rt/Context.class
+SHA1-Digest: eiORBMeaQAEVb/bSuySU+PeuVqQ=
+
+Name: com/sap/aii/mappingtool/tf7/XMLOutputHandler.class
+SHA1-Digest: vfFM5PVVlukGJ2qzuHaw4JWVDJU=
+
+Name: com/sap/aii/mappingtool/tf3/IllegalInstanceException.class
+SHA1-Digest: Ik669GVsvtxKiWgTSZrB8nBra8w=
+
+Name: com/sap/aii/mappingtool/tf/DummyStream.class
+SHA1-Digest: IpD0VB8x2ex36EDsnB97pYup2o0=
+
+Name: com/sap/aii/mappingtool/tf3/Transformer$StreamConnection.class
+SHA1-Digest: q2l3SeWuypnKYQRZU1G2U9pMSLc=
+
+Name: com/sap/aii/mappingtool/tf3/Transformer.class
+SHA1-Digest: YLOM/W2EQ7WmKSlVjw9rthISzL0=
+
+Name: com/sap/aii/mappingtool/tf7/rt/ResultListImpl$1.class
+SHA1-Digest: DOjmsZ9ID471vOVR0Rex/qOqHQo=
+
+Name: com/sap/aii/mappingtool/tf7/RQSBuffer$1.class
+SHA1-Digest: 36mhUd89N4IdK3sw1dAjaMXP6Ng=
+
+Name: com/sap/aii/mappingtool/flib3/Exists.class
+SHA1-Digest: VraN3MLrHAFcVDaSx6/+rGj5ZN0=
+
+Name: com/sap/aii/mappingtool/tf/rt/IResIterator.class
+SHA1-Digest: ES58j9P2iiR70ksXGUUBnGdTamk=
+
+Name: com/sap/aii/mappingtool/tf/rt/DummyTrace.class
+SHA1-Digest: ldm1fbOlWuDtOBznNsjZ89e4w64=
+
+Name: com/sap/aii/mappingtool/tf/rt/Container.class
+SHA1-Digest: 1tSv33NraH9nTK1xnq9vOLwPwL4=
+
+Name: com/sap/aii/mappingtool/flib3/TextFunctions.class
+SHA1-Digest: clYneL6iiw87bcthLzYG6K1Euhs=
+
+Name: com/sap/aii/mappingtool/flib/Stat.class
+SHA1-Digest: UyCFiIeIhgFpki+rIJpBuWIgjrE=
+
+Name: com/sap/aii/mappingtool/flib3/package-version.properties
+SHA1-Digest: PXU0uypguyWr05QW15sLi0p6d/I=
+
+Name: com/sap/aii/mappingtool/tf3/rb_all_en.properties
+SHA1-Digest: 0UbCAZ3UHoVcTdLSdPeQFRblurE=
+
+Name: com/sap/aii/mappingtool/tf7/rt/Rec2Iter.class
+SHA1-Digest: orOTvY7Mt5CBpYo2gyKgWbmJ3GM=
+
+Name: com/sap/aii/mappingtool/flib/Exists.class
+SHA1-Digest: LY8EnbIiStbgcRYLPBCCrbA5LTQ=
+

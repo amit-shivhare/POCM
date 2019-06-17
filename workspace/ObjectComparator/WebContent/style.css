@@ -1,0 +1,95 @@
+html {
+    overflow-y:scroll;
+}
+
+body {background-color: #ededed; margin: 0px}
+
+a {}
+.main {font-family: Arial; font-size: 12px; font-weight: bold; text-decoration: none; color: #336677; padding-right: 30px;}
+
+div {}
+
+.lined {border-bottom: 1px solid grey;border-top: 1px solid grey; padding: 5px;}
+.linedb {border-bottom: 1px solid grey; padding: 5px;}
+
+.message0 {
+    color: white;
+}
+
+.message1 {
+	color: black;
+    background-color: #ffff99;
+}
+
+.message2 {
+	color: white;
+    background-color: #73B225;
+}
+
+.message3 {
+    color: white;
+    background-color: #ff4c4c;
+}
+
+.message9 {
+    color: black;
+    background-color: white;
+}
+
+#logBox {
+  width: 1000px;
+  height: 400px;
+  background-color: #FCFCFC;
+  border: solid 1px black;
+  position: absolute;
+  top: 115px;
+  left: 80px;
+  display: none;
+}	
+
+#content {overflow: auto;}
+#label {background-color: #0B418B; padding-left: 10px; color: white;}
+#messager {
+	margin: 5px;
+    border: solid 1px black;    
+    font-family: Arial;
+    padding: 4px;
+    font-size: 12px;
+}
+
+td {font-family: Arial; font-size: 11px; border: solid 1px #d7d7d7}
+.s {border: 0px}
+.sx {font-size: 12px; padding: 5px;}
+.sk {font-size: 12px; vertical-align: top; border: 0px;}
+.sk2 {font-size: 12px; border: solid 1px #c6c6c6; padding: 4px;}
+.sk2r {background-color: red; color: white; font-size: 12px; border: solid 1px #c6c6c6; padding: 4px;}
+.sk3 {font-size: 12px; border: 0px;}
+.pic {text-align: center; width: 40px;}
+.hdr {background-color: #636363; color: white; text-align: center; font-size: 13px; height: 22px;}
+
+h2 {font-family: Arial; display: inline-block; vertical-align: top;}
+
+tr {}
+.c0 {}
+.c1 { background color: #c2c2c2;}
+.c2 { background-color: #f6f6f6;}
+
+th {background-color: #696969; color: white; font-weight: bold; font-size: 12px; font-family: Arial; padding: 4px; border: solid 1px #c6c6c6}
+
+input {font-size: 12px;
+	font-family: Arial;
+}
+
+span {font-family: Arial; font-size: 12px;}
+
+#lbLabel {color: white; padding-left:2px; font-weight: bold; font-size: 13px;}
+
+
+input[type=button] {
+   
+    border: solid 1px black;
+}
+
+.exec { background-color: red; color: white}
+
+option {font-size: 12px; font-family: Arial}

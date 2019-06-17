@@ -1,0 +1,12 @@
+#Sun Jun 16 14:55:38 CEST 2019
+DefaultSAPSystem=OI5
+DI3=Host<ch00sdi3.eu.mt.mtnet>,InstanceNumber<0>,Secure<false>;Host<ch00vdi3s>,InstanceNumber<1>,Secure<false>;
+SI5=Host<ch00vsi5s>,InstanceNumber<0>,Secure<false>;Host<ch00vsi5s>,InstanceNumber<1>,Secure<false>;
+SI3=Host<ch00vsi3s>,InstanceNumber<0>,Secure<false>;Host<ch00vsi3s>,InstanceNumber<1>,Secure<false>;
+OI5=Host<ch00voi5s>,InstanceNumber<1>,Secure<false>;Host<ch00voi5s>,InstanceNumber<0>,Secure<false>;
+OI3=Host<ch00voi3s.eu.mt.mtnet>,InstanceNumber<0>,Secure<false>;Host<ch00voi3s>,InstanceNumber<1>,Secure<false>;
+eclipse.preferences.version=1
+InstanceHistory=Host<ch00vsi5s>,InstanceNumber<0>,Secure<false>;Host<ch00voi5s>,InstanceNumber<0>,Secure<false>;Host<ch00vpi3s>,InstanceNumber<1>,Secure<false>;
+SAPSystems=SI3;OI3;SI5;OI5;PI3;QI3;DI3;
+PI3=Host<ch00vpi3s>,InstanceNumber<0>,Secure<false>;Host<ch00vpi3s>,InstanceNumber<1>,Secure<false>;
+QI3=Host<ch00vqi3s.eu.mt.mtnet>,InstanceNumber<0>,Secure<false>;Host<ch00vqi3s>,InstanceNumber<1>,Secure<false>;

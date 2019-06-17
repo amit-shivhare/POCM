@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DN3_PO-AM_D~jam~testear~mt.com">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module archiveName="DN3_PO-AM_D~jam~pi~ejb~mt.com.jar" deploy-path="/" handle="module:/resource/DN3_PO-AM_D~jam~pi~ejb~mt.com/DN3_PO-AM_D~jam~pi~ejb~mt.com">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

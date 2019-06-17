@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<View xmlns="http://sap.com/xi/XI/Message/30" profile="XPI_SEND_RECV_01">
+<Name>SR_ABAP_ENTRY_VIEW_XPI</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.SR_ENTRY_VIEW_XPI">
+  <Label language="EN">Message status sender - receiver (detailed)</Label>
+</GuiLabels>
+<EntryView default="false">true</EntryView>
+<ViewReference>
+  <ReferenceName>ABAP_XPI_CHILD_VIEW</ReferenceName>
+</ViewReference>
+
+	
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+  		
+            <AttributeGroupReference>
+  	      <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	      <AttributeReference>
+	        <ReferenceName>OB_PARTY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_SYSTEM</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_NS</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_PARTY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_SYSTEM</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_NS</ReferenceName>
+	      </AttributeReference>
+
+	    </AttributeGroupReference>
+
+  	</AggregationAttributes>
+  
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+  
+	     <AggregationGroupReference>
+  	       <ReferenceName>AGGR_VAL_GROUP</ReferenceName>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>ERROR</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SCHEDULED</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SUCCESSFUL</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>CANCEL</ReferenceName>
+  	       </AttributeGroupReference>
+	     </AggregationGroupReference>
+
+	</AggregationValues>
+
+</View>

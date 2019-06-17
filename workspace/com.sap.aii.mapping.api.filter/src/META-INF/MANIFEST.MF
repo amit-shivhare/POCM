@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.5.0_11-b03 (Sun Microsystems Inc.)
+Edition: 710SP05
+Implementation-Vendor-Id: sap.com
+Implementation-Version: 7.1005.20080222140515.0000
+Perforce-Server: perforce3710.wdf.sap.corp:3710
+Changelist: 16194
+
+Name: origin
+project: xpi.facades
+release: NW07_05_REL
+subproject: _ib_mapping_library_filter
+environment: com.sap.aii.mapping.api.filter.public
+envtype: jar
+gendir: D:/depot/_build/tc/XPI~1.FAC/NW07_0~2/gen/dbg/java/sub/_ib_map
+ ping_library_filter/e/01
+
+Name: sap-component
+project: xpi.facades
+subproject: _ib_mapping_library_filter
+type: ServerComponent
+sub-type: PrimaryLibrary
+provider: sap.com
+component: com.sap.xi.mapping.api.lib
+apiforwarding: true
+flavors: ServerComponent
+includedapis: com.sap.xpi.ib.mapping.lib*sap.com*xpi.ib*_ib_mapping_li
+ brary_module**Module*LibraryModule*ServerComponent**,com.sap.xi.mappi
+ ng.api.lib*sap.com*xpi.ib*_ib_mapping_library**ServerComponent*Primar
+ yLibrary*ServerComponent**
+assemblies: +*com.sap.xpi.ib.mapping.lib*sap.com*xpi.ib*_ib_mapping_li
+ brary_module**Module*LibraryModule*ServerComponent**<=
+

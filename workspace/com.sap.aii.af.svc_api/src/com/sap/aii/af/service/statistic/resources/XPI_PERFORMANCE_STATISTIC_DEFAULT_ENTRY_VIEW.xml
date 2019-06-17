@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<View xmlns="http://sap.com/xi/XI/Message/30" profile="XPI_PERFORMANCE">
+<Name>ENTRY_VIEW_XPI_PERFORMANCE</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.ENTRY_VIEW_XPI_PERF">
+  <Label language="EN">Message performance statistic (detailed)</Label>
+</GuiLabels>
+<EntryView default="true">true</EntryView>
+
+	
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+  		
+            <AttributeGroupReference>
+  	      <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	      <AttributeReference>
+	        <ReferenceName>FROM_PARTY_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>FROM_SERVICE_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	  	<ReferenceName>TO_PARTY_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>TO_SERVICE_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>ACTION_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>ACTION_TYPE</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>INBOUND_CHANNEL</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OUTBOUND_CHANNEL</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>DIRECTION</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>DELIVERY_SEMANTICS</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>SERVER_NODE</ReferenceName>
+	      </AttributeReference>
+
+	    </AttributeGroupReference>
+
+  	</AggregationAttributes>
+  
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+  
+	     <AggregationGroupReference>
+  	       <ReferenceName>AGGR_VAL_GROUP</ReferenceName>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>MESSAGE_COUNTER</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>MESSAGE_SIZE</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>RETRY_COUNTER</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <ModelGroupReference>
+  	         <ReferenceName>MEASURING_POINTS</ReferenceName>
+  	       </ModelGroupReference>
+	     </AggregationGroupReference>
+
+	</AggregationValues>
+
+</View>

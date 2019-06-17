@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Zipfoldermodule_EJB&apos;" deleteContents="true" description="Delete resource &apos;Zipfoldermodule_EJB&apos;" element1="/Zipfoldermodule_EJB" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1548069892813"/>
+</session>

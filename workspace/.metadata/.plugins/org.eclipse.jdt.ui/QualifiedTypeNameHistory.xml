@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="javax.xml.xpath.XPathConstants"/>
+<fullyQualifiedTypeName name="dataLog.Message"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.api.message.Message"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleContext"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleLocal"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="javax.ejb.LocalHome"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleRemote"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleHome"/>
+<fullyQualifiedTypeName name="javax.ejb.RemoteHome"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleLocalHome"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.exception.MessagingException"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.PublicAPIAccessFactory"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.auditlog.AuditAccess"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.auditlog.AuditLogStatus"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.Module"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.lib.mp.module.ModuleException"/>
+<fullyQualifiedTypeName name="com.sap.aii.mapping.lookup.Payload"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.Message"/>
+<fullyQualifiedTypeName name="com.sap.aii.af.service.api.TextPayload"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.sap.engine.interfaces.messaging.api.Payload"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

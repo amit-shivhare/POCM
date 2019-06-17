@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: DynamicQueues_EAR
+Implementation-Version: 2016.09.16.11.23.59
+Implementation-Vendor-Id: sap.com
+Specification-Vendor: SAP AG
+

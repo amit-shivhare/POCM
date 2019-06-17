@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: com.equalize.xpi.af.modules.app
+Implementation-Version: 2016.03.31.15.36.02
+Implementation-Vendor-Id: equalize.com
+Specification-Vendor: SAP AG
+

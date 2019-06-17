@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FileAdapModuleArc/ejbModule/LiberationSans-Regular.ttf&apos; to &apos;LiberationSans.ttf&apos;" description="Rename resource &apos;LiberationSans-Regular.ttf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/LiberationSans-Regular.ttf" name="LiberationSans.ttf" stamp="1471427716518" updateReferences="true"/>
+</session>

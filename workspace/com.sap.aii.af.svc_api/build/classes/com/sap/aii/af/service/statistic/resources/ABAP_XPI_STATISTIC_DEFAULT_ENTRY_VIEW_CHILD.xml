@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<View xmlns="http://sap.com/xi/XI/Message/30" profile="XPI_SEND_RECV_01">
+<Name>ABAP_XPI_CHILD_VIEW</Name>
+<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.CHILD_VIEW_XPI">
+  <Label language="EN">XPI child view</Label>
+</GuiLabels>
+<EntryView>false</EntryView>
+
+	<AggregationAttributes>
+        <Name>AGGR_ATTR</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_ATTR">
+          <Label language="EN">aggregation attributes</Label>
+        </GuiLabels>
+  		
+            <AttributeGroupReference>
+  	      <ReferenceName>AGGR_ATTR_GROUP</ReferenceName>
+	      <AttributeReference>
+		  	<ReferenceName>OB_PARTY_AGENCY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_PARTY_TYPE</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_PARTY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_SYSTEM</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>OB_NS</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+		  	<ReferenceName>IB_PARTY_AGENCY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_PARTY_TYPE</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_PARTY</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_SYSTEM</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_NAME</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>IB_NS</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>QOSMODE</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>DIRECTION</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>ADAPT_TYP</ReferenceName>
+	      </AttributeReference>
+
+	      <AttributeReference>
+	        <ReferenceName>ADAPT_TP_I</ReferenceName>
+	      </AttributeReference>
+
+            </AttributeGroupReference>
+
+  	</AggregationAttributes>
+  
+	<AggregationValues>
+        <Name>AGGR_VAL</Name>
+	<GuiLabels resourceId="com.sap.aii.af.service.statistic.rb_view.AGGR_VAL">
+          <Label language="EN">aggregation values</Label>
+        </GuiLabels>
+  
+	     <AggregationGroupReference>
+  	       <ReferenceName>AGGR_VAL_GROUP</ReferenceName>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>ERROR</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SCHEDULED</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>SUCCESSFUL</ReferenceName>
+  	       </AttributeGroupReference>
+  	       <AttributeGroupReference>
+  	         <ReferenceName>CANCEL</ReferenceName>
+  	       </AttributeGroupReference>
+	     </AggregationGroupReference>
+
+	</AggregationValues>
+
+</View>

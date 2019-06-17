@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\eclipse\workspace\Data\build\classes\com"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+		<item value="331" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item value="706" key="DIALOG_WIDTH"/>
+		<item value="-116" key="DIALOG_Y_ORIGIN"/>
+		<item value="744" key="DIALOG_HEIGHT"/>
+		<item value="88" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/com.sap.tc.jtools.jlin.ui"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="\\ch00sdi3\PI_File_Share\DI1 Files\JavaDevelopment\Code\B2B Archiving\workspace_eu4_v2.zip"/>
+			<item value="C:\nc\temp\DataStore.zip"/>
+			<item value="C:\eclipse\DataStore.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\jarunek-1\Desktop\Servlet\V2.0\App.zip"/>
+			<item value="C:\Users\jarunek-1\Desktop\Servlet\BuyerProfileApp.zip"/>
+			<item value="C:\Users\jarunek-1\Desktop\Servlet\ServletSource.zip"/>
+			<item value="C:\Users\jarunek-1\Desktop\Servlet\ServletApp.zip"/>
+			<item value="\\ch00vdi3s.eu.mt.mtnet\PI_File_Share\DI1 Files\JavaDevelopment\Code\Servlet_v2\zippedServletApp.zip"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="392" key="DIALOG_WIDTH"/>
+		<item value="com.sap.ide.eclipse.j2ee.engine.deploy.view.console.DeployViewConsole" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="147" key="DIALOG_Y_ORIGIN"/>
+		<item value="479" key="DIALOG_HEIGHT"/>
+		<item value="1537" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.sap.ide.eclipse.j2ee.engine.deploy.DVCategory"/>
+			<item value="org.eclipse.pde.ui"/>
+			<item value="com.sap.esb.ui.pidirectorybrowser.picategory"/>
+			<item value="org.eclipse.ui.internal.otherCategory"/>
+		</list>
+	</section>
+	<section name="EditorSelectionDialog">
+	</section>
+	<section name="FileSystemExportWizard">
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\data\Temp\MC\files"/>
+			<item value="c:\data\Temp\MC\tools\"/>
+			<item value="\\ch00sdi3\PI_File_Share\JAVA\ServletDataManager2.1\"/>
+			<item value="\\ch00sdi3\PI_File_Share\JAVA\Servlet2.1"/>
+			<item value="\\ch00vdi3s\PI_File_Share\JAVA projects\Archiving Adapter Module"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jst.j2ee.internal.wizard.EARComponentImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="enterprise_portal.import_category"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jst.ejb.ui"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:HelloServlet" serverId="SAP Server at http://localhost:8080/"/>
+  <module moduleId="org.eclipse.jst.jee.server:MessageCloud" serverId="sapserver_OI3"/>
+  <module moduleId="org.eclipse.jst.jee.server:cXMLEAR" serverId="SAP Server1427897453990"/>
+  <module moduleId="org.eclipse.jst.jee.server:MessageCloudEAR" serverId="SAP Server1466108687965"/>
+  <module moduleId="org.eclipse.jst.jee.server:cXML" serverId="SAP Server1428201844021"/>
+  <module moduleId="org.eclipse.jst.jee.server:Data" serverId="SAP Server1428167866268"/>
+</modules>

@@ -1,0 +1,4 @@
+#Fri Feb 08 15:12:50 CET 2019
+eclipse.preferences.version=1
+PREFERENCE_SERVER=org.eclipse.jst.server.tomcat.60
+PREFERENCE_RUNTIME=org.eclipse.jst.ws.axis2.creation.axis2WebServiceRT

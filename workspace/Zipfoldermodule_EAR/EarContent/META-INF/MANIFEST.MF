@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: Zipfoldermodule_EAR
+Implementation-Version: 2019.01.03.17.01.05
+Implementation-Vendor-Id: sap.com
+Specification-Vendor: SAP AG
+
